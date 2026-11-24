@@ -30,3 +30,28 @@ i = page.index("<!--body-->")
 out = head + page[:i] + "</head>\n<body>\n" + page[i + len("<!--body-->"):] + "\n</body>\n</html>\n"
 (root / "docs" / "index.html").write_text(out)
 print(root / "docs" / "index.html")
+
+# sitemap, so the portal's robots.txt and the fleet roster can name it
+import datetime
+today = datetime.date.today().isoformat()
+(root / "docs" / "sitemap.xml").write_text(f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{url}</loc><lastmod>{today}</lastmod></url>
+</urlset>
+""")
+(root / "docs" / "llms.txt").write_text("""# Time Crystals, Drawn · ผลึกเวลา วาดให้ดู
+
+Time crystals explained with toys you drive, in English and Thai, for readers of any language.
+
+- Plain ol' crystal: guess the next ball in a salt checkerboard, then the next magnet across time. A pattern is something you can guess.
+- Kick it: kick a fence of magnets at your own tempo; they come home every second kick, at half your beat. Stop kicking and they stop.
+- The sloppy boot: kicks that turn the magnets only most of the way. Alone they drift off the beat; with neighbours joined they pull a knocked magnet back. Cartoon of the math.
+- Won't it get hot?: set a magnet on fire; in a plain jar the heat spreads, in mud (disorder) it stays put.
+- No boot at all: Hamburg 2022, a steady light on atoms between mirrors pulses on its own above a brightness threshold; a nudge moves the start, not the pace.
+- One you can build: New York 2026 (Morrell, Elliott & Grier, Phys. Rev. Lett. 136, 057201): two foam beads in a 40 kHz levitator swing opposite ways at about 67 Hz when their sizes differ a little.
+- Build one: Chronos, plans and code at https://github.com/NaNoBotCo/chronos; a parts kit on a sliding scale ($129 / $149 / $199).
+- What it ain't: not a time machine, not free power (Watanabe & Oshikawa 2015), not just a clock.
+- Who made 'em: Wilczek 2012 to Aalto 2025 and NYU 2026.
+
+Cites: Wilczek PRL 109 (2012); Watanabe & Oshikawa PRL 114 (2015); Khemani et al. PRL 116 (2016); Else, Bauer & Nayak PRL 117 (2016); Zhang et al. and Choi et al. Nature 543 (2017); Randall et al. Science 374 (2021); Mi et al. Nature 601 (2022); Kongkhambut et al. Science 377 (2022); Zhao & Smalyukh Nature Materials (2025); Mäkinen et al. Nature Communications (2025); Morrell, Elliott & Grier PRL 136 (2026); Marzo, Barnes & Drinkwater RSI 88 (2017). Text CC BY 4.0, code MIT.
+""")
