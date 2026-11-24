@@ -1,0 +1,1626 @@
+<!doctype html>
+<html lang="en" translate="no" class="notranslate">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="google" content="notranslate">
+<title>Time Crystals, Drawn</title>
+<meta name="description" content="Time crystals as toys: salt next to a time crystal, a boot that kicks magnets, a sloppy kick that a crowd of magnets shrugs off, a jar that won't heat up, two foam beads lifted by sound, a levitator you can build, and a sentence you finish yourself. English and Thai.">
+<link rel="canonical" href="https://nanobotco.github.io/time-crystals/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="NaNoBotCo">
+<meta property="og:title" content="Time Crystals, Drawn · ผลึกเวลา วาดให้ดู">
+<meta property="og:description" content="Kick 'em every beat, they come home every other kick. · เตะทุกจังหวะ มันกลับบ้านทุกสองเตะ">
+<meta property="og:url" content="https://nanobotco.github.io/time-crystals/">
+<meta property="og:image" content="https://nanobotco.github.io/time-crystals/card.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A fence at night with magnets on the posts, flipping up and down, and the words Time Crystals, Drawn in English and Thai.">
+<meta property="og:locale" content="en_US"><meta property="og:locale:alternate" content="th_TH">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://nanobotco.github.io/time-crystals/card.jpg">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}[hidden]{display:none!important}</style>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rye&family=Atkinson+Hyperlegible:wght@400;700&family=Mitr:wght@500&family=Sarabun:wght@400;600&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: a porch at night. Toy boxes on bands of ground, stacked over a fixed hillside sky; open windows between bands where the sky and its fence of flipping magnets show through. */
+:root{
+  --ground:#e6eef2; --panel:#fbfdfd; --well:#dce7ed; --ink:#141a2c; --muted:#4c586b; --rule:#c1cfd9;
+  --ice:#0d7b8c; --icetext:#08606d; --gold:#d79f12; --goldtext:#7c5800; --trace:#a87500; --barn:#b3342b; --wood:#86562f; --mud:#7a5833;
+  --hot:#d1432a; --cool:#2a76c0; --denim:#3f6196; --glow:#ffd45a; --badfill:#f4c7c0;
+  --sky1:#9fc8df; --sky2:#e8f2f6; --hill1:#9dbf96; --hill2:#79a477; --hill3:#5a8a5d; --star:#ffffff;
+  --display:"Rye","Mitr",Georgia,serif; --thai-display:"Mitr","Sarabun",Tahoma,sans-serif;
+  --body:"Atkinson Hyperlegible","Sarabun",Tahoma,system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#0a0e1b; --panel:#131a2d; --well:#1b2440; --ink:#e9edf7; --muted:#a3acc4; --rule:#2a355a;
+  --ice:#5dd0e2; --icetext:#5dd0e2; --gold:#f1c13d; --goldtext:#f1c13d; --trace:#f1c13d; --barn:#ee6d61; --wood:#b27c4d; --mud:#9c7a4e;
+  --hot:#ff7b5c; --cool:#6caff0; --denim:#6d8ec6; --glow:#ffe27a; --badfill:#5e2723;
+  --sky1:#04060f; --sky2:#17213f; --hill1:#152039; --hill2:#10182f; --hill3:#0b1123; --star:#fff4d2; color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --ground:#0a0e1b; --panel:#131a2d; --well:#1b2440; --ink:#e9edf7; --muted:#a3acc4; --rule:#2a355a;
+  --ice:#5dd0e2; --icetext:#5dd0e2; --gold:#f1c13d; --goldtext:#f1c13d; --trace:#f1c13d; --barn:#ee6d61; --wood:#b27c4d; --mud:#9c7a4e;
+  --hot:#ff7b5c; --cool:#6caff0; --denim:#6d8ec6; --glow:#ffe27a; --badfill:#5e2723;
+  --sky1:#04060f; --sky2:#17213f; --hill1:#152039; --hill2:#10182f; --hill3:#0b1123; --star:#fff4d2; color-scheme:dark;}
+*{box-sizing:border-box}
+html,body{background:var(--ground);color:var(--ink)}
+body{margin:0;font:21px/1.6 var(--body)}
+#sky{position:fixed;inset:0;width:100%;height:100%;z-index:0;display:block}
+[data-root]{position:relative;z-index:1}
+.band{background:var(--ground);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:8px 28px}
+.wrap{max-width:760px;margin:0 auto}
+a{color:var(--icetext)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+[data-lang="en"] .th{display:none!important}
+[data-lang="th"] .en{display:none!important}
+header.bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding-block:14px 0}
+.brand{font:22px var(--display);margin-right:auto;white-space:nowrap}
+.pill{display:flex;border:2px solid var(--ink);border-radius:999px;overflow:hidden}
+.pill button{font:700 17px var(--body);background:none;border:0;color:var(--ink);padding:6px 16px;cursor:pointer;min-height:44px}
+.pill button[aria-pressed="true"]{background:var(--ink);color:var(--ground)}
+h1,h2,h3{margin:0;line-height:1.1;text-wrap:balance;font-weight:400;font-family:var(--display)}
+[data-lang="th"] h1,[data-lang="th"] h2,[data-lang="th"] h3,[data-lang="th"] .brand,[data-lang="th"] .window p{font-family:var(--thai-display);font-weight:500}
+h1{font-size:clamp(46px,11vw,84px);margin-top:18px;letter-spacing:.5px}
+h2{font-size:clamp(30px,6.4vw,42px);padding-top:26px}
+.lede{font-size:clamp(22px,4.4vw,27px);margin:.4em 0 0;max-width:30ch}
+section p{margin:.55em 0;max-width:62ch}
+.toy{background:var(--panel);border:2.5px solid var(--ink);border-radius:16px;padding:14px;margin:16px 0 6px;box-shadow:6px 6px 0 var(--rule)}
+.toy svg{display:block;width:100%;height:auto;overflow:hidden;touch-action:manipulation}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:12px 0 0}
+.go{font:700 18px var(--body);color:var(--ink);background:var(--panel);border:2.5px solid var(--ink);border-radius:12px;padding:8px 16px;cursor:pointer;min-height:48px;display:inline-flex;align-items:center;gap:8px}
+.go:active{transform:translateY(2px)}
+.go.big{background:var(--gold);color:#141a2c;font-size:20px;padding:8px 22px}
+button.go[aria-pressed="true"]{background:var(--ink);color:var(--ground)}
+button.go svg{width:26px;height:26px;flex:none}
+.seg{display:inline-flex;border:2.5px solid var(--ink);border-radius:12px;overflow:hidden}
+.seg button{font:700 18px var(--body);background:var(--panel);color:var(--ink);border:0;padding:8px 16px;min-height:48px;cursor:pointer}
+.seg button+button{border-left:2.5px solid var(--ink)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--ground)}
+.say{font-size:21px;font-weight:700;margin-top:12px;min-height:1.6em}
+.say b{color:var(--goldtext)}
+.note{font-size:16px;color:var(--muted);margin-top:8px}
+.readout{font:700 20px var(--mono);font-variant-numeric:tabular-nums}
+.punch{font:clamp(26px,5.4vw,34px)/1.2 var(--display);margin:18px 0 4px;color:var(--icetext)}
+[data-lang="th"] .punch{font-family:var(--thai-display);font-weight:500}
+.legend{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+.legend div{display:flex;gap:10px;align-items:center;font-size:18px;line-height:1.35;min-width:0}
+.legend svg{width:44px;height:44px;flex:none}
+@media (max-width:560px){body{font-size:19px}.legend{grid-template-columns:1fr}button.go,.seg button{font-size:17px;padding:8px 12px}}
+/* svg parts */
+.mag{cursor:pointer}
+.mag-disc{fill:var(--panel);stroke:var(--ink);stroke-width:2.5;transition:fill .25s}
+.mag.pop .mag-disc{fill:var(--glow)}
+.mag-n{fill:var(--gold);stroke:var(--ink);stroke-width:1.6;stroke-linejoin:round}
+.mag-s{fill:var(--well);stroke:var(--ink);stroke-width:1.6;stroke-linejoin:round}
+.mag-pin{fill:var(--ink)}
+.boot{cursor:pointer}
+.boot-leg{fill:var(--denim);stroke:var(--ink);stroke-width:2.5}
+.boot-body{fill:var(--wood);stroke:var(--ink);stroke-width:2.5;stroke-linejoin:round}
+.boot-heel{fill:var(--ink)}
+.boot-stitch{fill:none;stroke:var(--gold);stroke-width:2.2;stroke-linecap:round}
+.boot-spur{fill:var(--gold);stroke:var(--ink);stroke-width:1.5}
+.f-hill{fill:var(--well)} .f-wood{fill:var(--wood);stroke:var(--ink);stroke-width:2} .f-ink{fill:var(--ink)} .f-muted{fill:var(--muted)} .f-panel{fill:var(--panel)}
+.s-gold{stroke:var(--gold);stroke-width:4;stroke-linecap:round}
+.t-mono{font:700 28px var(--mono);fill:var(--ink)}
+.t-lab{font:700 26px var(--body);fill:var(--muted)}
+.t-big{font:700 24px var(--body);fill:var(--ink)}
+.salt-cl{fill:var(--gold);stroke:var(--ink);stroke-width:2;cursor:pointer}
+.salt-na{fill:var(--ice);stroke:var(--ink);stroke-width:2;cursor:pointer}
+.playhead{fill:var(--ice);opacity:.16}
+.layer{transition:opacity .45s}
+.hand{stroke:var(--gold);stroke-width:7;stroke-linecap:round;transition:opacity .3s}
+.hand-dot{fill:var(--gold);stroke:var(--ink);stroke-width:1.5;transition:opacity .3s}
+.bar-ok{fill:var(--gold)} .bar-weak{fill:var(--muted)} .bar-bad{fill:var(--barn)}
+.ghost{fill:none;stroke:var(--rule);stroke-width:1.5;stroke-dasharray:4 3}
+.axis{stroke:var(--muted);stroke-width:1.5}
+.home{fill:none;stroke:var(--ice);stroke-width:3.5}
+.kdot{fill:var(--gold);stroke:var(--ink);stroke-width:1.5}
+.jar{fill:var(--well);stroke:var(--ice);stroke-width:3.5}
+.lid{fill:var(--wood);stroke:var(--ink);stroke-width:2}
+.f-mud{fill:var(--mud)}
+.therm{fill:var(--panel);stroke:var(--ink);stroke-width:2.5}
+.f-hot{fill:var(--hot)} .f-cool{fill:var(--cool)}
+.flame{fill:var(--hot)}
+.mirror{stroke:var(--ice);stroke-width:8;stroke-linecap:round}
+.lamp{fill:var(--glow);stroke:var(--ink);stroke-width:2}
+.beam{stroke:var(--glow);stroke-width:9;opacity:.55}
+.cloud{fill:var(--glow);stroke:var(--ink);stroke-width:1.5}
+.trace{fill:none;stroke:var(--trace);stroke-width:3.5;stroke-linejoin:round;stroke-linecap:round}
+.peak{fill:var(--trace)}
+.nowline{stroke:var(--muted);stroke-dasharray:5 5;stroke-width:1.5}
+.lane{fill:var(--well)}
+.mag.bad .mag-disc{fill:var(--badfill)}
+.curtain{fill:var(--well);stroke:var(--ink);stroke-width:2.5;stroke-dasharray:7 5;cursor:pointer}
+.t-q{font:44px var(--display);fill:var(--ink);pointer-events:none}
+.mark-ok{font:700 30px var(--body);fill:var(--icetext)} .mark-no{font:700 30px var(--body);fill:var(--barn)}
+.guess button.go svg{width:38px;height:38px}
+.best{font:700 17px var(--mono);margin:6px 0 0;color:var(--muted)}
+.tray{display:flex;flex-wrap:wrap;gap:10px;margin-top:4px;min-height:52px}
+.opt{font:700 20px var(--body);border:2.5px solid var(--ink);background:var(--panel);color:var(--ink);border-radius:10px;padding:6px 14px;min-height:48px;cursor:pointer}
+.opt.no{border-color:var(--barn);color:var(--barn);text-decoration:line-through}
+.chip.act{border-style:solid;border-color:var(--gold);background:var(--glow);color:#141a2c}
+.pic{cursor:pointer}
+.pic .p2a,.pic .p2b,.pic .p2c,.pic .p2o{transition:fill .2s,opacity .2s}
+.pic.alt .p2a{fill:var(--ice)} .pic.alt .p2b{fill:var(--gold)} .pic.alt .p2c{fill:var(--ice)} .pic.alt .p2o{opacity:.25}
+.bowl{fill:var(--well);stroke:var(--ink);stroke-width:2.5}
+.spk{fill:var(--panel);stroke:var(--ink);stroke-width:2}
+.snd{fill:none;stroke:var(--ice);stroke-width:2.5;opacity:.45}
+.snd2{fill:none;stroke:var(--ice);stroke-width:2.5}
+.nodeline{stroke:var(--muted);stroke-width:2;stroke-dasharray:4 4}
+.bead{fill:#f7f4ec;stroke:var(--ink);stroke-width:2.5;cursor:pointer;transition:fill .2s}
+.bead.pop{fill:var(--glow)}
+.tr1{fill:none;stroke:var(--gold);stroke-width:3.5;stroke-linejoin:round}
+.tr2{fill:none;stroke:var(--ice);stroke-width:3.5;stroke-linejoin:round}
+.dot1{fill:var(--gold)} .dot2{fill:var(--ice)}
+.sizes{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:4px 14px;align-items:center;margin-top:10px;font-weight:700}
+@media (max-width:560px){.sizes{grid-template-columns:minmax(0,1fr)}}
+h3.sub{font:700 20px var(--body);margin:0 0 10px}
+.ladder{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.rung{display:flex;gap:12px;align-items:center;width:100%;text-align:left;font:inherit;font-size:18px;line-height:1.4;color:var(--ink);background:var(--panel);border:2.5px solid var(--ink);border-radius:12px;padding:10px 12px;cursor:pointer}
+.rung svg{width:56px;height:56px;flex:none}
+.rung.star{border-color:var(--gold);box-shadow:4px 4px 0 var(--gold)}
+.rung[aria-pressed="true"]{background:var(--well)}
+.rung[aria-pressed="true"] b::after{content:" \2713";color:var(--icetext)}
+.parts{display:grid;gap:10px}
+.part{display:grid;grid-template-columns:64px minmax(0,1fr) max-content;gap:10px;align-items:start;border-top:2px solid var(--rule);padding-top:10px;font-size:18px;line-height:1.4}
+.part:first-child{border-top:0;padding-top:0}
+.pq{font:700 16px var(--mono)} .pp{font:700 16px var(--mono);color:var(--goldtext)}
+.pn span{color:var(--muted)}
+.kit{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:18px 0 8px}
+@media (max-width:560px){.kit{grid-template-columns:minmax(0,1fr)}}
+.kitway{background:var(--panel);border:2.5px solid var(--ink);border-radius:16px;padding:14px;box-shadow:6px 6px 0 var(--rule)}
+.kitway h3{font:24px var(--display);margin:0 0 6px}
+[data-lang="th"] .kitway h3{font-family:var(--thai-display);font-weight:500}
+.kitbuy{border-color:var(--gold);box-shadow:6px 6px 0 var(--gold)}
+.price{font:700 28px var(--mono);margin:4px 0;color:var(--goldtext)}
+a.go{text-decoration:none}
+.tiers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:2.5px solid var(--ink);border-radius:12px;overflow:hidden;margin:10px 0 4px}
+.tiers button{font:inherit;background:var(--panel);color:var(--ink);border:0;padding:8px 4px;min-height:56px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;line-height:1.2}
+.tiers button+button{border-left:2.5px solid var(--ink)}
+.tiers button b{font-size:16px} .tiers button span{font:700 16px var(--mono)}
+.tiers button[aria-pressed="true"]{background:var(--gold);color:#141a2c}
+.tiernote{margin:0 0 6px;font-weight:700}
+/* switch */
+.lever{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.switch{position:relative;width:118px;height:54px;border-radius:999px;border:3px solid var(--ink);background:var(--well);cursor:pointer;padding:0;flex:none}
+.switch .knob{position:absolute;top:4px;left:4px;width:40px;height:40px;border-radius:50%;background:var(--barn);border:3px solid var(--ink);transition:left .3s}
+.switch[aria-checked="true"]{background:var(--glow)}
+.switch[aria-checked="true"] .knob{left:66px;background:var(--gold)}
+.lever b{font-size:20px}
+input[type=range]{width:100%;max-width:420px;accent-color:var(--gold);height:40px}
+.meter{height:16px;border:2px solid var(--ink);border-radius:999px;overflow:hidden;background:var(--well);width:min(260px,60vw)}
+.meter i{display:block;height:100%;background:var(--gold);transition:width .3s}
+/* windows onto the sky */
+.window{min-height:46vh;display:grid;place-items:center;padding:24px max(16px,env(safe-area-inset-right,0px)) 24px max(16px,env(safe-area-inset-left,0px));cursor:pointer;-webkit-tap-highlight-color:transparent}
+.window p{font:clamp(38px,9vw,74px)/1.05 var(--display);text-align:center;margin:0;color:var(--ink);text-shadow:0 0 18px var(--ground),0 0 4px var(--ground)}
+/* myth cards */
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}
+@media (max-width:560px){.cards{grid-template-columns:minmax(0,1fr)}}
+.card{background:var(--panel);border:2.5px solid var(--ink);border-radius:14px;padding:14px;text-align:left;font:inherit;color:var(--ink);cursor:pointer;min-height:168px;box-shadow:5px 5px 0 var(--rule);display:flex;flex-direction:column;gap:8px}
+.card svg{width:64px;height:64px}
+.card .q{font:24px/1.15 var(--display)}
+[data-lang="th"] .card .q{font-family:var(--thai-display);font-weight:500}
+.card .back{display:none;font-size:18px;line-height:1.45}
+.card .no{font:700 22px var(--body);color:var(--barn)}
+.card[aria-pressed="true"]{background:var(--well)}
+.card[aria-pressed="true"] .front{display:none}
+.card[aria-pressed="true"] .back{display:flex;flex-direction:column;gap:6px}
+.card.flip{animation:flip .35s}
+@keyframes flip{0%{transform:rotateY(0)}50%{transform:rotateY(90deg)}100%{transform:rotateY(0)}}
+/* who */
+.years{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.years button{font:700 17px var(--mono);border:2px solid var(--ink);background:var(--panel);color:var(--ink);border-radius:10px;padding:6px 10px;min-height:44px;cursor:pointer}
+.years button[aria-pressed="true"]{background:var(--gold);color:#141a2c}
+.who{display:grid;grid-template-columns:240px minmax(0,1fr);gap:16px;align-items:center;margin-top:12px}
+@media (max-width:560px){.who{grid-template-columns:minmax(0,1fr)}}
+.who svg{width:100%;max-width:240px;height:auto;cursor:pointer}
+.who h3{font:700 22px var(--body);margin:0 0 4px}
+.who p{margin:0}
+/* tell */
+.tell{font-size:24px;line-height:2.1}
+.chip{font:700 21px var(--body);border:2.5px dashed var(--ink);background:var(--panel);color:var(--ink);border-radius:10px;padding:2px 12px;cursor:pointer;min-height:44px;vertical-align:baseline}
+.chip.ok{border-style:solid;border-color:var(--ice);background:var(--well);color:var(--icetext)}
+.chip.ok::after{content:" \2713"}
+.chip.no{border-style:solid;border-color:var(--barn);color:var(--barn)}
+.chip.shake{animation:shake .3s}
+@keyframes shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.done{display:none;margin-top:12px}
+.done.on{display:block}
+dl.words{display:grid;grid-template-columns:minmax(0,max-content) minmax(0,1fr);gap:8px 16px;margin:14px 0}
+dl.words dt{font-weight:700}
+dl.words dd{margin:0}
+@media (max-width:560px){dl.words{grid-template-columns:minmax(0,1fr)}dl.words dd{margin-bottom:8px}}
+ol.src{font-size:17px;line-height:1.5;padding-left:1.4em}
+ol.src li{margin:6px 0}
+footer{font-size:16px;color:var(--muted);padding-block:18px 40px}
+footer a{color:var(--muted)}
+@media (prefers-reduced-motion:reduce){.card.flip,.chip.shake{animation:none}.switch .knob,.meter i,.layer{transition:none}}
+</style>
+</head>
+<body>
+
+<canvas id="sky" aria-hidden="true"></canvas>
+<div data-root data-lang="en">
+
+<div class="band"><div class="wrap">
+  <header class="bar">
+    <span class="brand"><span class="en">Time Crystals, Drawn</span><span class="th">ผลึกเวลา วาดให้ดู</span></span>
+    <div class="pill" role="group" aria-label="Motion / ภาพเคลื่อนไหว"><button type="button" id="motionBtn" aria-pressed="true"><span class="en">Motion</span><span class="th">ขยับ</span></button></div>
+    <div class="pill lang" role="group" aria-label="Language / ภาษา"><button type="button" data-l="en" aria-pressed="true">EN</button><button type="button" data-l="th" aria-pressed="false">ไทย</button></div>
+  </header>
+
+  <section id="hero">
+    <h1><span class="en">Time Crystals</span><span class="th">ผลึกเวลา</span></h1>
+    <p class="lede"><span class="en">A crystal repeats across space. A time crystal repeats across time.</span><span class="th">ผลึกธรรมดา ลายซ้ำไปตามทาง ผลึกเวลา ลายซ้ำไปตามเวลา</span></p>
+    <div class="toy">
+      <svg id="heroSvg" viewBox="0 0 720 300" role="img" aria-label="A fence. A boot kicks the rail on every beat. Seven little magnets on the posts flip up, down, up, down. Knock one crooked and the next kick puts it back in line."></svg>
+      <div class="legend">
+        <div><svg viewBox="0 0 44 44" aria-hidden="true"><rect x="5" y="8" width="7" height="32" rx="2" class="f-wood"/><rect x="19" y="8" width="7" height="32" rx="2" class="f-wood"/><rect x="33" y="8" width="7" height="32" rx="2" class="f-wood"/></svg><span><span class="en">Posts: same, same, same, across the yard.</span><span class="th">เสารั้ว: แบบเดิม แบบเดิม แบบเดิม ไปตามทาง</span></span></div>
+        <div><svg viewBox="0 0 44 44" aria-hidden="true" id="legendMag"></svg><span><span class="en">Magnets: up, down, up, down, across time.</span><span class="th">แม่เหล็ก: ขึ้น ลง ขึ้น ลง ไปตามเวลา</span></span></div>
+      </div>
+      <div class="row">
+        <button type="button" class="go big" id="heroKick"><span class="en">Kick</span><span class="th">เตะ</span></button>
+        <button type="button" class="go" id="heroAuto" aria-pressed="true"><span class="en">Auto</span><span class="th">อัตโนมัติ</span></button>
+        <span class="note"><span class="en">Tap the boot. Knock a magnet crooked.</span><span class="th">แตะรองเท้า เคาะแม่เหล็กให้เบี้ยว</span></span>
+      </div>
+      <p class="say" id="heroSay" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <section id="salt">
+    <h2><span class="en">Plain ol' crystal</span><span class="th">ผลึกธรรมดา</span></h2>
+    <p><span class="en">Salt is a crystal. Big ball, little ball, big, little. Same pattern all the way across.</span><span class="th">เกลือเป็นผลึก ลูกใหญ่ ลูกเล็ก ใหญ่ เล็ก ลายเดิมไปตลอดทาง</span></p>
+    <p><span class="en">A pattern means you can guess what comes next. Guess the <b>?</b> Then flip to <b>Time</b> and guess again.</span><span class="th">มีลาย แปลว่าทายได้ว่าอะไรมาต่อ ลองทาย <b>?</b> แล้วโยกไปที่ <b>ตามเวลา</b> ทายอีกรอบ</span></p>
+    <div class="toy">
+      <svg id="saltSvg" viewBox="0 0 720 340" role="img" aria-label="A checkerboard of salt balls, or of magnets across time. The next column hides behind a question mark."></svg>
+      <div class="row guess">
+        <button type="button" class="go big" id="saltG1"></button>
+        <button type="button" class="go big" id="saltG0"></button>
+        <span class="readout" id="saltScore"></span>
+      </div>
+      <div class="row">
+        <div class="seg" role="group" aria-label="Space or time"><button type="button" id="saltSpace" aria-pressed="true"><span class="en">Space</span><span class="th">ตามทาง</span></button><button type="button" id="saltTime" aria-pressed="false"><span class="en">Time</span><span class="th">ตามเวลา</span></button></div>
+        <div class="seg" role="group" aria-label="Crystal or mush"><button type="button" id="saltCrys" aria-pressed="true"><span class="en">Crystal</span><span class="th">ผลึก</span></button><button type="button" id="saltMush" aria-pressed="false"><span class="en">Mush</span><span class="th">เละ</span></button></div>
+      </div>
+      <p class="say" id="saltSay" aria-live="polite"></p>
+    </div>
+  </section>
+</div></div>
+
+<div class="window" id="w1" role="button" tabindex="0" aria-label="Up. Down. Up. Down."><p><span class="en">Up. Down.<br>Up. Down.</span><span class="th">ขึ้น ลง<br>ขึ้น ลง</span></p></div>
+
+<div class="band"><div class="wrap">
+  <section id="kick">
+    <h2><span class="en">Kick it</span><span class="th">เตะมัน</span></h2>
+    <p><span class="en">Each magnet is a little arrow. Kick 'em and they flip over.</span><span class="th">แม่เหล็กแต่ละตัวคือลูกศรเล็กๆ เตะทีนึง มันพลิกกลับหัว</span></p>
+    <p><span class="en">You kick on every beat. They get back home on every <b>second</b> kick. Fast or slow, they follow your beat at half speed.</span><span class="th">คุณเตะทุกจังหวะ มันกลับถึงบ้านทุกเตะ<b>ที่สอง</b> เตะเร็วหรือช้า มันก็ตามจังหวะคุณ ที่ความเร็วครึ่งเดียว</span></p>
+    <div class="toy">
+      <svg id="kickSvg" viewBox="0 0 720 210" role="img" aria-label="A boot kicks a rail with eight magnets on it."></svg>
+      <svg id="kickChart" viewBox="0 0 720 150" role="img" aria-label="Chart over time: a boot mark at each kick, and the magnets pointing up on every second kick."></svg>
+      <label for="kickTempo" style="display:block;margin-top:10px;font-weight:700"><span id="kickTempoLab"></span></label>
+      <input type="range" id="kickTempo" min="30" max="120" step="5" value="60">
+      <div class="row">
+        <button type="button" class="go big" id="kickBtn"><span class="en">Kick</span><span class="th">เตะ</span></button>
+        <button type="button" class="go" id="kickAuto" aria-pressed="true"><span class="en">Auto</span><span class="th">อัตโนมัติ</span></button>
+        <span class="readout" id="kickRead"></span>
+      </div>
+      <p class="say" id="kickSay" aria-live="polite"></p>
+      <p class="note"><span class="en">In a lab, the boot is a flash of laser or microwave.</span><span class="th">ในห้องแล็บ รองเท้าก็คือแสงเลเซอร์หรือไมโครเวฟที่ยิงวาบเดียว</span></p>
+    </div>
+  </section>
+
+  <section id="sloppy">
+    <h2><span class="en">The trick: a sloppy boot</span><span class="th">ทีเด็ด: เตะเบี้ยว</span></h2>
+    <p><span class="en">Anybody can flip a thing twice. Here's the catch: no boot is perfect. Each kick turns 'em only most of the way over.</span><span class="th">ใครๆ ก็พลิกของได้สองที แต่ไม่มีใครเตะเป๊ะ แต่ละทีมันหมุนไปไม่สุด</span></p>
+    <p><span class="en">Slide the boot to sloppy. Watch the bars. Then make 'em join hands. Tap a magnet to knock it upside down.</span><span class="th">เลื่อนให้เตะเบี้ยว ดูแท่ง แล้วให้มันจับมือกัน แตะแม่เหล็กเพื่อเคาะให้กลับหัว</span></p>
+    <div class="toy">
+      <svg id="slSvg" viewBox="0 0 720 170" role="img" aria-label="Twelve magnets in a row. Tap one to knock it upside down."></svg>
+      <svg id="slChart" viewBox="0 0 720 190" role="img" aria-label="Bars for the last forty kicks."></svg>
+      <p class="note" style="margin-top:2px"><span class="en">One bar per kick. Tall up: they all point up. Tall down: they all point down. Gold: on the beat. Red: wrong way.</span><span class="th">แท่งละหนึ่งเตะ สูงขึ้น: ชี้ขึ้นหมด สูงลง: ชี้ลงหมด สีทอง: ตรงจังหวะ สีแดง: ผิดทาง</span></p>
+      <label for="slBoot" style="display:block;margin-top:10px;font-weight:700"><span id="slBootLab"></span></label>
+      <input type="range" id="slBoot" min="60" max="100" step="1" value="90">
+      <div class="row">
+        <div class="lever"><button type="button" class="switch" id="slHands" role="switch" aria-checked="false" aria-labelledby="slHandsLab"><span class="knob"></span></button><b id="slHandsLab"></b></div>
+        <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap"><span style="font-weight:700"><span class="en">On the beat</span><span class="th">ตรงจังหวะ</span></span><div class="meter"><i id="slMeter"></i></div><span class="readout" id="slPct"></span></div>
+      </div>
+      <div class="row">
+        <button type="button" class="go big" id="slKick"><span class="en">Kick</span><span class="th">เตะ</span></button>
+        <button type="button" class="go" id="slAuto" aria-pressed="true"><span class="en">Auto</span><span class="th">อัตโนมัติ</span></button>
+        <button type="button" class="go" id="slListen" aria-pressed="false"><svg viewBox="0 0 26 26" aria-hidden="true"><path d="M4 10h5l6-5v16l-6-5H4z" class="f-ink"/><path d="M18 8q4 5 0 10M21 5q7 8 0 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg><span class="en">Listen</span><span class="th">ฟัง</span></button>
+        <button type="button" class="go" id="slLine"><span class="en">Start over</span><span class="th">เริ่มใหม่</span></button>
+      </div>
+      <p class="say" id="slSay" aria-live="polite"></p>
+      <p class="best" id="slBest"></p>
+      <p class="note"><span class="en">A cartoon of the math. In the lab, it's quantum.</span><span class="th">นี่เป็นการ์ตูนของคณิตศาสตร์ ในแล็บเป็นเรื่องควอนตัม</span></p>
+    </div>
+    <p class="punch"><span class="en">That stubborn beat is the crystal.</span><span class="th">จังหวะดื้อๆ นี่แหละ คือผลึก</span></p>
+  </section>
+</div></div>
+
+<div class="window" id="w2" role="button" tabindex="0" aria-label="A stubborn beat."><p><span class="en">A stubborn<br>beat.</span><span class="th">จังหวะ<br>ดื้อ</span></p></div>
+
+<div class="band"><div class="wrap">
+  <section id="heat">
+    <h2><span class="en">Won't it get hot?</span><span class="th">เตะไปเรื่อยๆ ไม่ร้อนเหรอ</span></h2>
+    <p><span class="en">Kick most stuff long enough and it heats up. The pattern turns to mush.</span><span class="th">เตะของส่วนใหญ่นานพอ มันร้อนขึ้น ลายก็เละ</span></p>
+    <p><span class="en">In the right jar, each magnet sits in its own mud, every puddle different. Heat can't hop from one to the next.</span><span class="th">ในโหลขวา แม่เหล็กแต่ละตัวจมโคลนไม่เท่ากัน ความร้อนกระโดดไปตัวข้างๆ ไม่ได้</span></p>
+    <p><span class="en">Tap a magnet to set it on fire. Then kick.</span><span class="th">แตะแม่เหล็กเพื่อจุดไฟ แล้วเตะ</span></p>
+    <div class="toy">
+      <svg id="heatSvg" viewBox="0 0 720 300" role="img" aria-label="Two jars of twelve magnets with thermometers. Tap a magnet to set it on fire."></svg>
+      <div class="row">
+        <button type="button" class="go big" id="heatKick"><span class="en">Kick</span><span class="th">เตะ</span></button>
+        <button type="button" class="go" id="heatRun"><span class="en">Kick 100 times</span><span class="th">เตะ 100 ที</span></button>
+        <button type="button" class="go" id="heatReset"><span class="en">Start over</span><span class="th">เริ่มใหม่</span></button>
+      </div>
+      <p class="say" id="heatSay" aria-live="polite"></p>
+      <p class="note"><span class="en">Physicists call the mud "disorder." Some labs dodge the heat another way: they kick mighty fast.</span><span class="th">นักฟิสิกส์เรียกโคลนนี้ว่า ความไม่เป็นระเบียบ (disorder) บางแล็บหนีความร้อนอีกทาง คือเตะเร็วมากๆ</span></p>
+    </div>
+  </section>
+
+  <section id="steady">
+    <h2><span class="en">No boot at all</span><span class="th">ไม่ต้องเตะเลย</span></h2>
+    <p><span class="en">Hamburg, 2022: no kicks. A steady light on a cloud of atoms between two mirrors. Bright enough, and the cloud starts pulsing on its own.</span><span class="th">ฮัมบูร์ก ปี 2022: ไม่เตะ ส่องแสงนิ่งๆ ใส่กลุ่มอะตอมระหว่างกระจกสองบาน แสงแรงพอ กลุ่มอะตอมก็เต้นตุบๆ ขึ้นมาเอง</span></p>
+    <p><span class="en">Turn up the light. Tap a cloud to nudge it.</span><span class="th">เร่งแสงขึ้น แตะกลุ่มอะตอมเพื่อสะกิดมัน</span></p>
+    <div class="toy">
+      <svg id="stSvg" viewBox="0 0 720 300" role="img" aria-label="Three lamps shine on three mirror boxes. Bright enough, each box pulses at the same pace, starting at a different moment. Tap a box to nudge it."></svg>
+      <label for="stLightR" style="display:block;margin-top:10px;font-weight:700"><span id="stLightLab"></span></label>
+      <input type="range" id="stLightR" min="0" max="100" step="1" value="70">
+      <div class="row">
+        <button type="button" class="go big" id="stGo"><span class="en">Light 'em up</span><span class="th">จุดไฟ</span></button>
+      </div>
+      <p class="say" id="stSay" aria-live="polite"></p>
+      <p class="note"><span class="en">Phatthamon Kongkhambut, Hans Keßler, Andreas Hemmerich and team, University of Hamburg.</span><span class="th">Phatthamon Kongkhambut, Hans Keßler, Andreas Hemmerich และทีม มหาวิทยาลัยฮัมบูร์ก</span></p>
+    </div>
+  </section>
+
+  <section id="beads">
+    <h2><span class="en">One you can build</span><span class="th">แบบที่สร้างเองได้</span></h2>
+    <p><span class="en">New York, 2026: no kicks, no light. Sound too high to hear lifts two foam beads into the air.</span><span class="th">นิวยอร์ก ปี 2026: ไม่เตะ ไม่ส่องแสง เสียงที่สูงเกินหูได้ยิน อุ้มเม็ดโฟมสองเม็ดให้ลอยกลางอากาศ</span></p>
+    <p><span class="en">Same size: they sit still. A little different: they start swinging, opposite ways, on their own. Find a pair that swings.</span><span class="th">ขนาดเท่ากัน: นิ่ง ต่างกันนิดหน่อย: มันเริ่มแกว่งสวนทางกันเอง ลองหาคู่ที่แกว่ง</span></p>
+    <div class="toy">
+      <svg id="bdSvg" viewBox="0 0 720 330" role="img" aria-label="An acoustic levitator: a bowl of speakers above, one below, and two foam beads floating between them. A chart shows each bead's height over time. Tap a bead to poke it."></svg>
+      <div class="sizes">
+        <label for="bdTop"><span id="bdTopLab"></span></label><input type="range" id="bdTop" min="20" max="40" step="1" value="33">
+        <label for="bdBot"><span id="bdBotLab"></span></label><input type="range" id="bdBot" min="20" max="40" step="1" value="29">
+      </div>
+      <div class="row">
+        <div class="lever"><button type="button" class="switch" id="bdSound" role="switch" aria-checked="true" aria-labelledby="bdSoundLab"><span class="knob"></span></button><b id="bdSoundLab"></b></div>
+        <button type="button" class="go big" id="bdRandom"><span class="en">Random pair</span><span class="th">สุ่มคู่</span></button>
+        <button type="button" class="go" id="bdLab"><span class="en">Lab pair</span><span class="th">คู่ในแล็บ</span></button>
+        <button type="button" class="go" id="bdSame"><span class="en">Same size</span><span class="th">ขนาดเท่ากัน</span></button>
+      </div>
+      <p class="say" id="bdSay" aria-live="polite"></p>
+      <p class="best" id="bdTally"></p>
+      <p class="note"><span class="en">Tap a bead to poke it. Drawn 60 times slower, swings drawn big. A cartoon of the model. Mia Morrell, Leela Elliott and David Grier, New York University.</span><span class="th">แตะเม็ดโฟมเพื่อจิ้มมัน วาดช้าลง 60 เท่า วาดการแกว่งให้ใหญ่ นี่เป็นการ์ตูนของแบบจำลอง Mia Morrell, Leela Elliott และ David Grier มหาวิทยาลัยนิวยอร์ก</span></p>
+    </div>
+  </section>
+
+  <section id="build">
+    <h2><span class="en">Build one: Chronos</span><span class="th">สร้างเองสักเครื่อง: Chronos</span></h2>
+    <p><span class="en">A levitator from a kit, a bag of foam beads, a fast phone camera, and free code that reads the swing.</span><span class="th">เครื่องลอยด้วยเสียงจากชุดคิต เม็ดโฟมหนึ่งถุง กล้องมือถือที่ถ่ายเร็ว และโค้ดฟรีที่อ่านการแกว่ง</span></p>
+    <div class="toy">
+      <h3 class="sub"><span class="en">Five rungs. Tap one when you're there.</span><span class="th">ห้าขั้น แตะขั้นที่ทำได้แล้ว</span></h3>
+      <ol class="ladder" id="ladder"></ol>
+      <p class="note"><span class="en">Rungs 1 to 3 are a working levitator. Rung 4 is the time crystal. A pretty wiggle on video is not proof.</span><span class="th">ขั้น 1 ถึง 3 คือเครื่องลอยที่ใช้งานได้ ขั้น 4 คือผลึกเวลา ภาพวิดีโอที่ดูสวยยังไม่ใช่หลักฐาน</span></p>
+    </div>
+    <div class="toy">
+      <h3 class="sub"><span class="en">Parts</span><span class="th">ชิ้นส่วน</span></h3>
+      <div class="parts" id="parts"></div>
+      <p class="note"><span class="en">Kit price: IEEE Spectrum, Elektor and RobotShop listings. Small parts: usual marketplace prices.</span><span class="th">ราคาชุดคิต: จาก IEEE Spectrum, Elektor และ RobotShop ชิ้นเล็ก: ราคาทั่วไปในตลาดออนไลน์</span></p>
+    </div>
+    <div class="kit" id="kit">
+      <div class="kitway">
+        <h3><span class="en">Buy the parts yourself</span><span class="th">ซื้อชิ้นส่วนเอง</span></h3>
+        <p><span class="en">Every part above has a link. Plans, bead gauge and code: free.</span><span class="th">ทุกชิ้นข้างบนมีลิงก์ แบบ ที่วัดเม็ดโฟม และโค้ด: ฟรี</span></p>
+        <a class="go" id="repoLink" href="https://github.com/NaNoBotCo/chronos"><span class="en">Plans and code</span><span class="th">แบบและโค้ด</span></a>
+      </div>
+      <div class="kitway kitbuy">
+        <h3><span class="en">Get the Chronos kit</span><span class="th">สั่งชุด Chronos</span></h3>
+        <p><span class="en">Levitator kit, a bag of foam beads and a step-down board, shipped from the makers to your door. Same kit at every price. Pick the one that fits you; nobody asks why.</span><span class="th">ชุดเครื่องลอย เม็ดโฟมหนึ่งถุง และบอร์ดลดแรงดัน ส่งตรงจากผู้ผลิตถึงหน้าบ้าน ชุดเดียวกันทุกราคา เลือกราคาที่เหมาะกับคุณ ไม่มีใครถามว่าทำไม</span></p>
+        <div class="tiers" id="tiers" role="group" aria-label="Price / ราคา"></div>
+        <p class="price" id="kitPrice"></p>
+        <p class="tiernote" id="tierNote"></p>
+        <p class="note"><span class="en">Where the money goes: levitator kit $70–100, board and beads $3–8, postage at cost for your address.</span><span class="th">เงินไปไหน: ชุดเครื่องลอย $70–100 บอร์ดกับเม็ดโฟม $3–8 ค่าส่งตามจริงตามที่อยู่ของคุณ</span></p>
+        <a class="go big" id="kitBtn" href="#"><span class="en">Order the kit</span><span class="th">สั่งชุดนี้</span></a>
+        <p class="note" id="kitHow"></p>
+      </div>
+    </div>
+    <p class="note"><span class="en">Safety: low voltage, electronics boxed in, the off switch within reach. Sound off before hands go in. Pets and kids stay back from a running levitator: nobody has measured this one's sound yet.</span><span class="th">ความปลอดภัย: ไฟแรงดันต่ำ อุปกรณ์ไฟฟ้าอยู่ในกล่อง สวิตช์ปิดอยู่ใกล้มือ ปิดเสียงก่อนเอามือเข้าไป สัตว์เลี้ยงและเด็กอยู่ห่างจากเครื่องที่เปิดอยู่ ยังไม่มีใครวัดเสียงของเครื่องนี้</span></p>
+  </section>
+
+  <section id="myths">
+    <h2><span class="en">What it ain't</span><span class="th">มันไม่ใช่อะไร</span></h2>
+    <p><span class="en">Tap a card.</span><span class="th">แตะการ์ด</span></p>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <section id="who">
+    <h2><span class="en">Who made 'em</span><span class="th">ใครทำได้บ้าง</span></h2>
+    <p><span class="en">Tap a year. Tap the picture.</span><span class="th">แตะปี แตะรูป</span></p>
+    <div class="toy">
+      <div class="years" id="years" role="group" aria-label="Years"></div>
+      <div class="who" id="whoCard"></div>
+      <p class="say" id="whoSay" aria-live="polite"></p>
+      <div class="row"><button type="button" class="go" id="whoPrev">◀</button><button type="button" class="go" id="whoNext">▶</button></div>
+    </div>
+  </section>
+</div></div>
+
+<div class="window" id="w3" role="button" tabindex="0" aria-label="Your turn."><p><span class="en">Your turn.</span><span class="th">ตาคุณแล้ว</span></p></div>
+
+<div class="band"><div class="wrap">
+  <section id="tell">
+    <h2><span class="en">Now you tell it</span><span class="th">ทีนี้ คุณเล่าบ้าง</span></h2>
+    <p><span class="en">Tap a blank, then pick a word.</span><span class="th">แตะช่องว่าง แล้วเลือกคำ</span></p>
+    <div class="toy">
+      <p class="tell" id="tellLine"></p>
+      <div class="tray" id="tellTray" role="group" aria-label="Words / คำ"></div>
+      <div class="done" id="tellDone">
+        <svg id="tellSvg" viewBox="0 0 720 90" aria-hidden="true"></svg>
+        <p class="punch"><span class="en">Well, I'll be. You explained a time crystal.</span><span class="th">โอ้โห คุณอธิบายผลึกเวลาได้แล้ว</span></p>
+      </div>
+      <div class="row">
+        <button type="button" class="go" id="tellCopy"><span class="en">Copy it</span><span class="th">คัดลอก</span></button>
+        <button type="button" class="go" id="tellRead"><span class="en">Read it to me</span><span class="th">อ่านให้ฟัง</span></button>
+        <button type="button" class="go" id="tellMix"><span class="en">Mix it up</span><span class="th">สลับใหม่</span></button>
+      </div>
+      <p class="say" id="tellSay" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <section id="words">
+    <h2><span class="en">Words</span><span class="th">คำศัพท์</span></h2>
+    <dl class="words" id="gloss"></dl>
+  </section>
+
+  <section id="sources">
+    <h2><span class="en">Sources</span><span class="th">แหล่งที่มา</span></h2>
+    <ol class="src">
+      <li>Frank Wilczek, “Quantum Time Crystals,” <i>Physical Review Letters</i> 109, 160401 (2012). <a href="https://doi.org/10.1103/PhysRevLett.109.160401">doi</a></li>
+      <li>Haruki Watanabe &amp; Masaki Oshikawa, “Absence of Quantum Time Crystals,” <i>PRL</i> 114, 251603 (2015). <a href="https://doi.org/10.1103/PhysRevLett.114.251603">doi</a></li>
+      <li>Vedika Khemani, Achilleas Lazarides, Roderich Moessner, S. L. Sondhi, “Phase Structure of Driven Quantum Systems,” <i>PRL</i> 116, 250401 (2016). <a href="https://doi.org/10.1103/PhysRevLett.116.250401">doi</a></li>
+      <li>Dominic Else, Bela Bauer, Chetan Nayak, “Floquet Time Crystals,” <i>PRL</i> 117, 090402 (2016). <a href="https://doi.org/10.1103/PhysRevLett.117.090402">doi</a></li>
+      <li>J. Zhang et al. (Monroe lab), “Observation of a discrete time crystal,” <i>Nature</i> 543, 217 (2017): 10 ytterbium ions. <a href="https://doi.org/10.1038/nature21413">doi</a></li>
+      <li>Soonwon Choi et al. (Lukin lab), “Observation of discrete time-crystalline order in a disordered dipolar many-body system,” <i>Nature</i> 543, 221 (2017): about a million nitrogen-vacancy spins in diamond. <a href="https://doi.org/10.1038/nature21426">doi</a></li>
+      <li>J. Randall et al. (QuTech, Delft), “Many-body-localized discrete time crystal with a programmable spin-based quantum simulator,” <i>Science</i> 374, 1474 (2021): 9 carbon-13 spins. <a href="https://doi.org/10.1126/science.abk0603">doi</a></li>
+      <li>Xiao Mi et al. (Google Quantum AI), “Time-crystalline eigenstate order on a quantum processor,” <i>Nature</i> 601, 531 (2022, online Nov 2021): 20 superconducting qubits. <a href="https://doi.org/10.1038/s41586-021-04257-w">doi</a></li>
+      <li>Phatthamon Kongkhambut, Jim Skulte, Ludwig Mathey, Jayson G. Cosme, Andreas Hemmerich, Hans Keßler, “Observation of a continuous time crystal,” <i>Science</i> 377, 670 (2022). <a href="https://doi.org/10.1126/science.abo3382">doi</a></li>
+      <li>Hanqing Zhao &amp; Ivan Smalyukh, “Space-time crystals from particle-like topological solitons,” <i>Nature Materials</i> (Sept 2025). <a href="https://doi.org/10.1038/s41563-025-02344-1">doi</a></li>
+      <li>Jere Mäkinen et al. (Aalto), “Continuous time crystal coupled to a mechanical mode as a cavity-optomechanics-like platform,” <i>Nature Communications</i> (Oct 2025): magnons in superfluid helium-3, up to a few minutes, about 10⁸ cycles. <a href="https://arxiv.org/abs/2502.11730">arXiv</a></li>
+          <li>Mia C. Morrell, Leela Elliott, David G. Grier, “Nonreciprocal wave-mediated interactions power a classical time crystal,” <i>Physical Review Letters</i> 136, 057201 (2026): two foam beads in a 40 kHz levitator, opposite-ways swing at 66.8 Hz. <a href="https://doi.org/10.1103/zjzk-t81n">doi</a> · <a href="https://arxiv.org/abs/2504.15495">arXiv</a> · <a href="https://doi.org/10.17605/OSF.IO/SX7UG">data</a></li>
+      <li>Asier Marzo, Adrian Barnes, Bruce W. Drinkwater, “TinyLev: A multi-emitter single-axis acoustic levitator,” <i>Review of Scientific Instruments</i> 88, 085105 (2017). <a href="https://doi.org/10.1063/1.4989995">doi</a></li>
+    </ol>
+  </section>
+
+  <footer>
+    <span class="en">More, drawn:</span><span class="th">อ่านต่อ:</span>
+    <a href="https://nanobotco.github.io/quantum-computing/">Quantum Computing, plainly</a> ·
+    <a href="https://nanobotco.github.io/chaos/">Chaos, Drawn</a> ·
+    <a href="https://nanobotco.github.io/indras-net/">Indra's Net, Drawn</a> ·
+    <a href="https://nanobotco.github.io/three-body/">The Three-Body Problem</a> ·
+    <a href="https://nanobotco.github.io/black-holes/">Black Holes, Drawn</a>
+    <br>CC BY 4.0 / MIT
+  </footer>
+</div></div>
+</div>
+
+<script>
+(function(){
+'use strict';
+const root = document.querySelector('[data-root]');
+const $ = id => document.getElementById(id);
+const NS = 'http://www.w3.org/2000/svg';
+const PI = Math.PI, TAU = 2 * Math.PI, DEG = 180 / Math.PI;
+let L = 'en';
+try { const s = localStorage.getItem('tc-lang'); if (s === 'en' || s === 'th') L = s; } catch (e) {}
+const T = (en, th) => L === 'th' ? th : en;
+const RMQ = matchMedia('(prefers-reduced-motion: reduce)');
+let MOTION = !RMQ.matches;
+const renders = [];
+function el(tag, attrs, parent) { const e = document.createElementNS(NS, tag); if (attrs) for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
+function rng(seed) { return function () { seed |= 0; seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+function wrapA(x) { x = (x + PI) % TAU; if (x < 0) x += TAU; return x - PI; }
+const expect = k => (k % 2 === 0 ? 1 : -1);
+function sayText(id, s) { const e = $(id); if (e.textContent !== s) e.textContent = s; }
+
+/* ---------- one animation loop ---------- */
+const jobs = new Set(); let raf = 0;
+function wake() { if (!raf) raf = requestAnimationFrame(frame); }
+function frame(t) { raf = 0; let more = false; for (const j of jobs) { try { if (j(t)) more = true; } catch (e) { console.error(e); } } if (more) wake(); }
+const vis = {};
+const io = new IntersectionObserver(es => { es.forEach(e => { vis[e.target.id] = e.isIntersecting; }); wake(); }, { rootMargin: '80px' });
+['hero', 'salt', 'kick', 'sloppy', 'heat', 'steady', 'beads', 'who', 'tell', 'w1', 'w2', 'w3'].forEach(id => { vis[id] = true; io.observe($(id)); });
+
+/* ---------- parts: magnet + boot ---------- */
+const allMags = [];
+function Magnet(parent, x, y, r, onTap) {
+  const g = el('g', { class: 'mag', transform: `translate(${x} ${y})` }, parent);
+  el('circle', { r: r, class: 'mag-disc' }, g);
+  const n = el('g', {}, g);
+  el('path', { d: `M0 ${-r * .8}L${r * .32} 0L${-r * .32} 0Z`, class: 'mag-n' }, n);
+  el('path', { d: `M0 ${r * .8}L${r * .32} 0L${-r * .32} 0Z`, class: 'mag-s' }, n);
+  el('circle', { r: r * .11, class: 'mag-pin' }, n);
+  const m = { g, n, x, y, r, a: 0, shown: 0, spin: 0, hop: 0, vh: 0, onTap };
+  g.addEventListener('click', e => { e.stopPropagation(); if (m.onTap) { m.g.classList.add('pop'); setTimeout(() => m.g.classList.remove('pop'), 420); m.onTap(m); } else poke(m); });
+  allMags.push(m);
+  draw(m);
+  return m;
+}
+function poke(m) {
+  m.g.classList.add('pop'); setTimeout(() => m.g.classList.remove('pop'), 420);
+  if (MOTION) { m.spin += TAU; m.vh = 8; }
+  wake();
+}
+function draw(m) {
+  m.n.setAttribute('transform', `rotate(${((m.shown + m.spin) * DEG).toFixed(2)})`);
+  m.g.setAttribute('transform', `translate(${m.x} ${(m.y - m.hop).toFixed(2)})`);
+}
+function stepMag(m) {
+  let busy = false;
+  const d = m.a - m.shown;
+  if (!MOTION || Math.abs(d) < .004) m.shown = m.a; else { m.shown += d * .2; busy = true; }
+  if (m.spin > .01 && MOTION) { m.spin -= Math.max(.05, m.spin * .1); if (m.spin < 0) m.spin = 0; busy = true; } else m.spin = 0;
+  if (m.hop > 0 || m.vh > 0) { m.hop += m.vh; m.vh -= 1.1; if (m.hop <= 0) { m.hop = 0; m.vh = 0; } else busy = true; }
+  draw(m);
+  return busy;
+}
+jobs.add(() => { let b = false; for (const m of allMags) if (stepMag(m)) b = true; return b; });
+
+const KICK_A = -.32, REST_A = .17;
+function Boot(parent, tx, ty, L0, sc, rest) {
+  const REST = rest === undefined ? REST_A : rest;
+  const toe = [48 * sc, (L0 + 80) * sc];
+  const c = Math.cos(KICK_A), s = Math.sin(KICK_A);
+  const hx = tx - (toe[0] * c - toe[1] * s), hy = ty - (toe[0] * s + toe[1] * c);
+  const g = el('g', { class: 'boot', transform: `translate(${hx.toFixed(1)} ${hy.toFixed(1)})` }, parent);
+  const leg = el('g', {}, g);
+  const inner = el('g', { transform: `scale(${sc})` }, leg);
+  el('rect', { x: -12, y: -40, width: 24, height: L0 + 86, rx: 5, class: 'boot-leg' }, inner);
+  el('path', { d: `M-13 ${L0 + 38}L13 ${L0 + 38}L14 ${L0 + 64}Q15 ${L0 + 69} 20 ${L0 + 70}L40 ${L0 + 73}Q51 ${L0 + 76} 48 ${L0 + 86}L-15 ${L0 + 86}Q-17 ${L0 + 66} -13 ${L0 + 38}Z`, class: 'boot-body' }, inner);
+  el('rect', { x: -15, y: L0 + 84, width: 17, height: 8, rx: 1.5, class: 'boot-heel' }, inner);
+  el('path', { d: `M-9 ${L0 + 50}Q0 ${L0 + 57} 9 ${L0 + 50}M-8 ${L0 + 60}Q0 ${L0 + 66} 9 ${L0 + 60}`, class: 'boot-stitch' }, inner);
+  el('circle', { cx: -19, cy: L0 + 80, r: 4.5, class: 'boot-spur' }, inner);
+  const b = { g, leg, t0: -1, hit: null, hitDone: false };
+  b.set = a => leg.setAttribute('transform', `rotate(${(a * DEG).toFixed(2)})`);
+  b.set(REST);
+  b.kick = (onHit) => {
+    if (!MOTION) { onHit(); return; }
+    if (b.t0 >= 0 && b.hit && !b.hitDone) b.hit();
+    b.t0 = performance.now(); b.hit = onHit; b.hitDone = false; wake();
+  };
+  b.step = now => {
+    if (b.t0 < 0) return false;
+    const u = (now - b.t0) / 340;
+    if (u >= .5 && !b.hitDone) { b.hitDone = true; b.hit && b.hit(); }
+    if (u >= 1) { b.t0 = -1; b.set(REST); return false; }
+    b.set(REST + (KICK_A - REST) * Math.sin(PI * u));
+    return true;
+  };
+  jobs.add(b.step);
+  return b;
+}
+function Flash(parent, x, y) {
+  const f = el('g', { opacity: 0 }, parent);
+  for (let i = 0; i < 8; i++) { const a = i * PI / 4; el('line', { x1: x + Math.cos(a) * 9, y1: y + Math.sin(a) * 9, x2: x + Math.cos(a) * 22, y2: y + Math.sin(a) * 22, class: 's-gold' }, f); }
+  const o = { f, t0: -1 };
+  o.go = () => { o.t0 = performance.now(); wake(); };
+  jobs.add(now => { if (o.t0 < 0) return false; const u = (now - o.t0) / 300; if (u >= 1 || !MOTION) { f.setAttribute('opacity', 0); o.t0 = -1; return false; } f.setAttribute('opacity', (1 - u).toFixed(2)); return true; });
+  return o;
+}
+function fence(s, x0, x1, yRail, posts, postH) {
+  posts.forEach(x => el('rect', { x: x - 8, y: yRail - 22, width: 16, height: postH, rx: 3, class: 'f-wood' }, s));
+  el('rect', { x: x0, y: yRail, width: x1 - x0, height: 12, rx: 4, class: 'f-wood' }, s);
+  el('rect', { x: x0, y: yRail + 44, width: x1 - x0, height: 10, rx: 4, class: 'f-wood' }, s);
+}
+/* legend magnet */
+(function () { const s = $('legendMag'); const m = Magnet(s, 22, 22, 18); let up = true; setInterval(() => { if (!MOTION) return; up = !up; m.a += PI; wake(); }, 1200); })();
+
+/* ---------- hero: knock one crooked, the next kick lines it up ---------- */
+const H = { mags: [], k: 0, auto: true, last: 0, rnd: rng(13), msg: '' };
+(function () {
+  const s = $('heroSvg');
+  el('path', { d: 'M0 262Q180 238 360 254T720 246V300H0Z', class: 'f-hill' }, s);
+  const posts = [250, 320, 390, 460, 530, 600, 670];
+  fence(s, 206, 700, 172, posts, 104);
+  H.flash = Flash(s, 206, 178);
+  posts.forEach(x => H.mags.push(Magnet(s, x, 118, 26, heroKnock)));
+  H.count = el('text', { x: 704, y: 40, 'text-anchor': 'end', class: 't-mono' }, s);
+  H.boot = Boot(s, 208, 176, 110, 1.3, .1);
+  H.boot.g.addEventListener('click', heroKick);
+})();
+function heroKnock(m) {
+  m.a += (H.rnd() < .5 ? -1 : 1) * PI * (.45 + .3 * H.rnd());
+  m.bad = true; m.g.classList.add('bad');
+  if (MOTION) m.vh = 7;
+  H.msg = 'knock'; renderHero(); wake();
+}
+function heroKick() {
+  H.boot.kick(() => {
+    H.k++; let fixed = false;
+    H.mags.forEach(m => {
+      m.a += PI;
+      if (m.bad) { m.a += wrapA(H.k * PI - m.a); m.bad = false; m.g.classList.remove('bad'); fixed = true; m.vh = MOTION ? 9 : 0; }
+      else m.vh = MOTION ? 4 : 0;
+    });
+    if (fixed) H.msg = 'back';
+    H.flash.go(); renderHero(); wake();
+  });
+}
+function renderHero() {
+  H.count.textContent = T(`kick ${H.k}`, `เตะ ${H.k}`);
+  sayText('heroSay', H.msg === 'knock' ? T('Knocked one crooked. Next kick, the crowd pulls it back.', 'เคาะเบี้ยวไปตัวหนึ่ง เตะทีหน้า ฝูงจะดึงมันกลับ')
+    : H.msg === 'back' ? T('Back on the beat. The crowd won.', 'กลับเข้าจังหวะแล้ว ฝูงชนะ') : '');
+}
+renders.push(renderHero);
+$('heroKick').addEventListener('click', heroKick);
+$('heroAuto').addEventListener('click', () => { H.auto = !H.auto; $('heroAuto').setAttribute('aria-pressed', H.auto); wake(); });
+jobs.add(now => {
+  if (!H.auto || !MOTION || !vis.hero || document.hidden) return false;
+  if (now - H.last > 1300) { H.last = now; heroKick(); }
+  return true;
+});
+
+/* ---------- salt: guess what comes next ---------- */
+const magIco = rot => `<svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="17" class="mag-disc"/><g transform="rotate(${rot} 20 20)"><path d="M20 6L25 20L15 20Z" class="mag-n"/><path d="M20 34L25 20L15 20Z" class="mag-s"/></g></svg>`;
+const ballIco = big => `<svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="${big ? 16 : 9}" class="${big ? 'salt-cl' : 'salt-na'}"/></svg>`;
+const SA = { time: false, crys: true, cols: 9, rows: 4, rev: 3, right: 0, tries: 0, balls: [], mags: [], slots: [], marks: [], cells: [], jit: [], rnd: rng(3), hop: 0 };
+(function () {
+  const s = $('saltSvg');
+  const cell = 70, ox = 80, oy = 58;
+  Object.assign(SA, { cell, ox, oy });
+  SA.head = el('rect', { x: ox - cell / 2, y: oy - cell / 2 - 4, width: cell, height: SA.rows * cell + 8, rx: 10, class: 'playhead' }, s);
+  SA.headLab = el('text', { x: ox, y: 18, 'text-anchor': 'middle', class: 't-lab' }, s);
+  for (let c = 0; c < SA.cols; c++) SA.marks.push(el('text', { x: ox + c * cell, y: 20, 'text-anchor': 'middle', class: 'mark-ok' }, s));
+  for (let r = 0; r < SA.rows; r++) for (let c = 0; c < SA.cols; c++) SA.slots.push({ c, e: el('circle', { cx: ox + c * cell, cy: oy + r * cell, r: 16, class: 'ghost' }, s) });
+  SA.gs = el('g', { class: 'layer' }, s);
+  SA.gt = el('g', { class: 'layer', opacity: 0 }, s);
+  for (let r = 0; r < SA.rows; r++) for (let c = 0; c < SA.cols; c++) {
+    const hx = ox + c * cell, hy = oy + r * cell;
+    const e = el('circle', { cx: hx, cy: hy, r: 13, class: 'salt-na' }, SA.gs);
+    const b = { e, c, r, hx, hy, x: hx, y: hy, tx: hx, ty: hy, kick: 0 };
+    e.addEventListener('click', ev => { ev.stopPropagation(); b.kick = 14; wake(); });
+    SA.balls.push(b);
+  }
+  for (let r = 0; r < SA.rows; r++) for (let c = 0; c < SA.cols; c++) { const m = Magnet(SA.gt, ox + c * cell, oy + r * cell, 22); m.c = c; m.r = r; SA.mags.push(m); }
+  SA.cur = el('g', {}, s);
+  el('rect', { x: -31, y: -cell / 2 + 2, width: 62, height: SA.rows * cell - 4, rx: 12, class: 'curtain' }, SA.cur);
+  el('text', { x: 0, y: 15, 'text-anchor': 'middle', class: 't-q' }, SA.cur).textContent = '?';
+  SA.cur.addEventListener('click', () => { SA.hop = 1; wake(); });
+  el('line', { x1: 40, y1: 324, x2: 690, y2: 324, class: 'axis' }, s);
+  el('path', { d: 'M690 316L704 324L690 332Z', class: 'f-muted' }, s);
+  SA.axis = el('text', { x: 40, y: 316, class: 't-lab' }, s);
+  setSalt();
+})();
+function saltDeal() {
+  SA.ph = SA.rnd() < .5 ? 0 : 1; SA.cells = []; SA.jit = [];
+  for (let c = 0; c < SA.cols; c++) {
+    const col = [], jc = [];
+    for (let r = 0; r < SA.rows; r++) {
+      col.push(SA.crys ? (SA.time ? (c + SA.ph) % 2 : (r + c + SA.ph) % 2) : (SA.rnd() < .5 ? 1 : 0));
+      jc.push([(SA.rnd() - .5) * 34, (SA.rnd() - .5) * 28, SA.rnd() * 2 - 1]);
+    }
+    SA.cells.push(col); SA.jit.push(jc);
+  }
+  SA.rev = 3;
+  SA.marks.forEach(t => { t.textContent = ''; });
+  saltShow();
+}
+function saltShow() {
+  const shown = c => c < SA.rev;
+  SA.balls.forEach(b => {
+    const v = SA.cells[b.c][b.r], j = SA.jit[b.c][b.r];
+    b.tx = b.hx + (SA.crys ? 0 : j[0]); b.ty = b.hy + (SA.crys ? 0 : j[1]);
+    b.e.setAttribute('r', v ? 22 : 13); b.e.setAttribute('class', v ? 'salt-cl' : 'salt-na');
+    b.e.setAttribute('opacity', shown(b.c) ? 1 : 0); b.e.style.pointerEvents = shown(b.c) ? '' : 'none';
+  });
+  SA.mags.forEach(m => {
+    const v = SA.cells[m.c][m.r], j = SA.jit[m.c][m.r];
+    m.a += wrapA((v ? 0 : PI) + (SA.crys ? 0 : j[2] * 1.1) - m.a);
+    if (!shown(m.c)) m.shown = m.a;
+    m.g.setAttribute('opacity', shown(m.c) ? 1 : 0); m.g.style.pointerEvents = shown(m.c) ? '' : 'none';
+  });
+  SA.slots.forEach(sl => sl.e.setAttribute('opacity', shown(sl.c) ? 0 : 1));
+  const x = SA.ox + Math.min(SA.rev, SA.cols - 1) * SA.cell;
+  SA.head.setAttribute('x', x - SA.cell / 2); SA.headLab.setAttribute('x', x);
+  SA.head.setAttribute('opacity', SA.rev < SA.cols ? 1 : 0); SA.headLab.setAttribute('opacity', SA.rev < SA.cols ? 1 : 0);
+  SA.cur.setAttribute('transform', `translate(${x} ${SA.oy})`);
+  SA.cur.setAttribute('opacity', SA.rev < SA.cols ? 1 : 0);
+  renderSalt(); wake();
+}
+function saltGuess(g) {
+  if (SA.rev >= SA.cols) return;
+  const c = SA.rev, ok = SA.cells[c][0] === g;
+  SA.tries++; if (ok) SA.right++;
+  const mk = SA.marks[c]; mk.textContent = ok ? '✓' : '✗'; mk.setAttribute('class', ok ? 'mark-ok' : 'mark-no');
+  SA.rev++;
+  SA.balls.forEach(b => { if (b.c === c) b.kick = 14; });
+  SA.mags.forEach(m => { if (m.c === c && MOTION) m.vh = 6; });
+  saltShow();
+  if (SA.rev >= SA.cols) setTimeout(() => { if (SA.rev >= SA.cols) saltDeal(); }, 1400);
+}
+function setSalt() {
+  $('saltSpace').setAttribute('aria-pressed', !SA.time); $('saltTime').setAttribute('aria-pressed', SA.time);
+  $('saltCrys').setAttribute('aria-pressed', SA.crys); $('saltMush').setAttribute('aria-pressed', !SA.crys);
+  SA.gs.setAttribute('opacity', SA.time ? 0 : 1); SA.gt.setAttribute('opacity', SA.time ? 1 : 0);
+  SA.gs.style.pointerEvents = SA.time ? 'none' : ''; SA.gt.style.pointerEvents = SA.time ? '' : 'none';
+  SA.right = 0; SA.tries = 0;
+  saltDeal();
+}
+function renderSalt() {
+  SA.axis.textContent = SA.time ? T('across the clock', 'ไปตามเวลา') : T('across the yard', 'ไปตามทาง');
+  SA.headLab.textContent = T('next', 'ถัดไป');
+  $('saltG1').innerHTML = (SA.time ? magIco(0) : ballIco(true)) + `<span>${SA.time ? T('Up', 'ขึ้น') : T('Big', 'ใหญ่')}</span>`;
+  $('saltG0').innerHTML = (SA.time ? magIco(180) : ballIco(false)) + `<span>${SA.time ? T('Down', 'ลง') : T('Little', 'เล็ก')}</span>`;
+  $('saltScore').textContent = SA.tries ? T(`right ${SA.right} of ${SA.tries}`, `ถูก ${SA.right} จาก ${SA.tries}`) : '';
+  let s;
+  if (SA.tries < 3) s = SA.time ? T('Up or down? Guess the top one under the ?', 'ขึ้นหรือลง ทายตัวบนสุดใต้ ?') : T('Big or little? Guess the top one under the ?', 'ใหญ่หรือเล็ก ทายลูกบนสุดใต้ ?');
+  else {
+    const rate = SA.right / SA.tries;
+    if (SA.crys && rate >= .75) s = SA.time ? T('Easy to guess, across the clock. That\'s a time crystal.', 'ทายง่าย ไปตามเวลา นี่แหละผลึกเวลา') : T('Easy to guess. That\'s a crystal. Now flip to Time.', 'ทายง่าย นี่แหละผลึก ทีนี้โยกไปที่ตามเวลา');
+    else if (!SA.crys) s = T('Coin toss. Mush has no pattern to guess.', 'เหมือนโยนเหรียญ ของเละไม่มีลายให้ทาย');
+    else s = T('Look at the one before it.', 'ดูลูกที่อยู่ก่อนหน้า');
+  }
+  sayText('saltSay', s);
+}
+renders.push(renderSalt);
+$('saltG1').addEventListener('click', () => saltGuess(1));
+$('saltG0').addEventListener('click', () => saltGuess(0));
+$('saltSpace').addEventListener('click', () => { SA.time = false; setSalt(); });
+$('saltTime').addEventListener('click', () => { SA.time = true; setSalt(); });
+$('saltCrys').addEventListener('click', () => { SA.crys = true; setSalt(); });
+$('saltMush').addEventListener('click', () => { SA.crys = false; setSalt(); });
+jobs.add(now => {
+  let busy = false;
+  const live = MOTION && vis.salt && !document.hidden && !SA.time;
+  SA.balls.forEach(b => {
+    const k = MOTION ? .12 : 1;
+    if (Math.abs(b.tx - b.x) > .3 || Math.abs(b.ty - b.y) > .3) busy = true;
+    b.x += (b.tx - b.x) * k; b.y += (b.ty - b.y) * k;
+    let hop = 0; if (b.kick > 0) { hop = Math.sin(b.kick / 14 * PI) * 16; b.kick -= MOTION ? 1 : 14; busy = true; }
+    const jx = live ? Math.sin(now / 160 + b.hx + b.hy) * (SA.crys ? 1.2 : 3) : 0;
+    b.e.setAttribute('cx', (b.x + jx).toFixed(1)); b.e.setAttribute('cy', (b.y - hop).toFixed(1));
+  });
+  if (SA.hop > 0) {
+    SA.hop = MOTION ? Math.max(0, SA.hop - .08) : 0;
+    const x = SA.ox + Math.min(SA.rev, SA.cols - 1) * SA.cell;
+    SA.cur.setAttribute('transform', `translate(${x} ${(SA.oy - Math.sin(SA.hop * PI) * 10).toFixed(1)})`); busy = true;
+  }
+  return busy || live;
+});
+
+/* ---------- kick toy: your tempo, their half-tempo ---------- */
+const K = { mags: [], k: 0, auto: true, bpm: 60, last: 0, rr: 0, ev: [], pool: [] };
+const KX0 = 104, KX1 = 700, KSPAN = 8;
+(function () {
+  const s = $('kickSvg');
+  el('path', { d: 'M0 186Q200 172 380 182T720 176V210H0Z', class: 'f-hill' }, s);
+  const posts = []; for (let i = 0; i < 8; i++) posts.push(178 + i * 68);
+  fence(s, 132, 680, 120, posts, 90);
+  K.flash = Flash(s, 132, 126);
+  posts.forEach(x => K.mags.push(Magnet(s, x, 70, 24)));
+  K.boot = Boot(s, 134, 124, 70, .82);
+  K.boot.g.addEventListener('click', () => kickOnce(true));
+  const c = $('kickChart');
+  el('rect', { x: 96, y: 14, width: 616, height: 52, rx: 10, class: 'lane' }, c);
+  el('rect', { x: 96, y: 78, width: 616, height: 64, rx: 10, class: 'lane' }, c);
+  K.lab1 = el('text', { x: 86, y: 47, 'text-anchor': 'end', class: 't-lab' }, c);
+  K.lab2 = el('text', { x: 86, y: 117, 'text-anchor': 'end', class: 't-lab' }, c);
+  el('line', { x1: KX1, y1: 8, x2: KX1, y2: 148, class: 'nowline' }, c);
+  for (let i = 0; i < 30; i++) {
+    const g = el('g', { opacity: 0 }, c);
+    const d = el('g', { transform: 'translate(0 40)' }, g); el('path', { d: 'M-6 -10h10v10l7 4q3 2 0 4h-17z', class: 'kdot' }, d);
+    const ring = el('circle', { cx: 0, cy: 110, r: 18, class: 'home' }, g);
+    const mg = el('g', { transform: 'translate(0 110)' }, g);
+    el('circle', { r: 13, class: 'mag-disc' }, mg);
+    const ar = el('g', {}, mg);
+    el('path', { d: 'M0 -10.4L4.2 0L-4.2 0Z', class: 'mag-n' }, ar); el('path', { d: 'M0 10.4L4.2 0L-4.2 0Z', class: 'mag-s' }, ar);
+    K.pool.push({ g, ring, ar });
+  }
+  const t = performance.now();
+  for (let i = 5; i >= 1; i--) { K.k++; K.ev.push({ t: t - i * 1000, up: K.k % 2 === 0 }); }
+  K.mags.forEach(m => { m.a = K.k * PI; m.shown = m.a; draw(m); });
+  K.last = t;
+})();
+function kickApply() {
+  K.k++; K.mags.forEach(m => { m.a += PI; if (MOTION) m.vh = 4; });
+  K.ev.push({ t: performance.now(), up: K.k % 2 === 0 }); if (K.ev.length > 40) K.ev.shift();
+}
+function kickOnce(manual) {
+  if (manual && K.auto) { K.auto = false; $('kickAuto').setAttribute('aria-pressed', false); }
+  K.boot.kick(() => { kickApply(); K.flash.go(); renderKick(); wake(); });
+}
+function kickChart(now) {
+  const pxs = (KX1 - KX0) / KSPAN; let j = 0;
+  for (let i = K.ev.length - 1; i >= 0 && j < K.pool.length; i--) {
+    const e = K.ev[i], x = KX1 - (now - e.t) / 1000 * pxs;
+    if (x < KX0 + 10) break;
+    const p = K.pool[j++];
+    p.g.setAttribute('transform', `translate(${x.toFixed(1)} 0)`); p.g.setAttribute('opacity', 1);
+    p.ar.setAttribute('transform', e.up ? 'rotate(0)' : 'rotate(180)'); p.ring.setAttribute('opacity', e.up ? 1 : 0);
+  }
+  for (; j < K.pool.length; j++) K.pool[j].g.setAttribute('opacity', 0);
+}
+function kickBeat(now) {
+  const ev = K.ev, n = Math.min(4, ev.length - 1);
+  if (n < 1) return 0;
+  if (now - ev[ev.length - 1].t > 3000) return -1;
+  return 60000 * n / (ev[ev.length - 1].t - ev[ev.length - 1 - n].t);
+}
+function renderKick() {
+  const now = performance.now();
+  K.lab1.textContent = T('you', 'คุณ'); K.lab2.textContent = T('them', 'มัน');
+  $('kickTempoLab').textContent = T(`Auto beat: ${K.bpm} kicks a minute`, `จังหวะอัตโนมัติ: ${K.bpm} ครั้งต่อนาที`);
+  const b = kickBeat(now), home = Math.floor(K.k / 2);
+  $('kickRead').textContent = b > 0 ? T(`you ${Math.round(b)} a minute · them ${Math.round(b / 2)}`, `คุณ ${Math.round(b)} ครั้งต่อนาที · มัน ${Math.round(b / 2)}`) : T(`kicks ${K.k} · home ${home}`, `เตะ ${K.k} · ถึงบ้าน ${home}`);
+  sayText('kickSay', b < 0 ? T('You stopped. They stopped. No kick, no beat.', 'คุณหยุด มันก็หยุด ไม่เตะ ก็ไม่มีจังหวะ')
+    : T('Kick fast or slow. They come home every 2nd kick: half your beat.', 'เตะเร็วหรือช้าก็ได้ มันกลับบ้านทุกสองเตะ: ครึ่งหนึ่งของจังหวะคุณ'));
+  kickChart(now);
+}
+renders.push(renderKick);
+$('kickBtn').addEventListener('click', () => kickOnce(true));
+$('kickAuto').addEventListener('click', () => { K.auto = !K.auto; $('kickAuto').setAttribute('aria-pressed', K.auto); K.last = performance.now(); wake(); });
+$('kickTempo').addEventListener('input', e => { K.bpm = +e.target.value; if (!K.auto) { K.auto = true; K.last = performance.now(); $('kickAuto').setAttribute('aria-pressed', true); } renderKick(); wake(); });
+jobs.add(now => {
+  if (!vis.kick || document.hidden) return false;
+  if (K.auto && now - K.last > 60000 / K.bpm) { K.last = now; kickOnce(false); }
+  if (MOTION) kickChart(now);
+  if (now - K.rr > 400) { K.rr = now; renderKick(); }
+  return K.auto || (K.ev.length > 0 && now - K.ev[K.ev.length - 1].t < KSPAN * 1000);
+});
+
+/* ---------- sloppy boot ---------- */
+const S = { N: 12, boot: .9, hands: false, th: [], off: [], hist: [], k: 0, auto: true, last: 0, listen: false, mags: [], hl: [], best: { a: 0, h: 0 }, knock: null };
+(function () {
+  const s = $('slSvg');
+  const xs = []; for (let i = 0; i < S.N; i++) xs.push(52 + i * 56);
+  S.handG = el('g', {}, s);
+  for (let i = 0; i < S.N - 1; i++) {
+    const l = el('line', { x1: xs[i] + 14, y1: 92, x2: xs[i + 1] - 14, y2: 92, class: 'hand', opacity: 0 }, S.handG);
+    const d = el('circle', { cx: (xs[i] + xs[i + 1]) / 2, cy: 92, r: 6, class: 'hand-dot', opacity: 0 }, S.handG);
+    S.hl.push(l, d);
+  }
+  xs.forEach((x, i) => { const m = Magnet(s, x, 92, 22, slKnock); m.i = i; S.mags.push(m); });
+  S.lab = el('text', { x: 360, y: 160, 'text-anchor': 'middle', class: 't-lab' }, s);
+  const c = $('slChart');
+  el('line', { x1: 8, y1: 95, x2: 712, y2: 95, class: 'axis' }, c);
+  S.bars = [];
+  for (let i = 0; i < 40; i++) {
+    const x = 10 + i * 17.6;
+    const g = el('rect', { x: x, y: 20, width: 13, height: 75, class: 'ghost' }, c);
+    const b = el('rect', { x: x, y: 95, width: 13, height: 0, rx: 2, class: 'bar-ok' }, c);
+    S.bars.push({ g, b });
+  }
+  slReset();
+})();
+function slReset() {
+  const r = rng(7); S.rnd = rng(19);
+  S.off = []; for (let i = 0; i < S.N; i++) S.off.push((r() * 2 - 1) * .045);
+  S.th = new Array(S.N).fill(0); S.hist = []; S.k = 0; S.knock = null;
+  for (let i = 0; i < 40; i++) slStep();
+  S.mags.forEach((m, i) => { m.a = S.th[i]; m.shown = S.th[i]; draw(m); });
+  slBest(); slRender();
+}
+function slStep() {
+  const s = S.boot, N = S.N;
+  for (let i = 0; i < N; i++) S.th[i] += PI * (1 - (1 - s) * (1 + 3 * S.off[i])) + (S.rnd() * 2 - 1) * .025 * PI;
+  if (S.hands) {
+    const c = S.th.map(Math.cos), nx = S.th.slice();
+    for (let i = 0; i < N; i++) {
+      const a = i > 0 ? c[i - 1] : c[1], b = i < N - 1 ? c[i + 1] : c[N - 2];
+      nx[i] = S.th[i] + .55 * wrapA((a + c[i] + b >= 0 ? 0 : PI) - S.th[i]);
+    }
+    S.th = nx;
+  }
+  S.k++;
+  let a = 0; for (const t of S.th) a += Math.cos(t);
+  S.hist.push(a / N); if (S.hist.length > 400) S.hist.shift();
+}
+function slBest() {
+  const last = S.hist.slice(-20);
+  const ok = last.length === 20 && last.every((v, i) => v * expect(S.k - 19 + i) >= .5);
+  const key = S.hands ? 'h' : 'a', pct = Math.round(S.boot * 100);
+  if (ok && (!S.best[key] || pct < S.best[key])) S.best[key] = pct;
+}
+function slRender() {
+  const show = S.hist.slice(-40), k0 = S.k - show.length + 1;
+  S.bars.forEach((bar, i) => {
+    const v = show[i]; if (v === undefined) { bar.b.setAttribute('height', 0); return; }
+    const e = expect(k0 + i), h = Math.abs(v) * 75;
+    bar.g.setAttribute('y', e > 0 ? 20 : 95);
+    bar.b.setAttribute('y', v >= 0 ? 95 - h : 95); bar.b.setAttribute('height', h.toFixed(1));
+    bar.b.setAttribute('class', v * e < 0 ? 'bar-bad' : (Math.abs(v) > .5 ? 'bar-ok' : 'bar-weak'));
+  });
+  const last = S.hist.slice(-10); let sc = 0;
+  last.forEach((v, i) => { sc += Math.max(0, v * expect(S.k - last.length + 1 + i)); });
+  sc = last.length ? sc / last.length : 0;
+  $('slMeter').style.width = (sc * 100).toFixed(0) + '%';
+  $('slPct').textContent = (sc * 100).toFixed(0) + '%';
+  $('slBootLab').textContent = T(`Boot: ${Math.round(S.boot * 100)}% of a full flip`, `เตะ: ${Math.round(S.boot * 100)}% ของการพลิกเต็ม`);
+  $('slHandsLab').textContent = S.hands ? T('Hands joined', 'จับมือกันอยู่') : T('Join hands', 'จับมือกัน');
+  $('slHands').setAttribute('aria-checked', S.hands);
+  S.hl.forEach(e => e.setAttribute('opacity', S.hands ? 1 : 0));
+  S.lab.textContent = T(`kick ${S.k}`, `เตะ ${S.k}`);
+  const ek = expect(S.k);
+  S.mags.forEach((m, i) => m.g.classList.toggle('bad', Math.cos(S.th[i]) * ek < -.3));
+  const start = S.k - S.hist.length + 1;
+  let lost = 0; for (let i = 0; i < S.hist.length; i++) { if (S.hist[i] * expect(start + i) < .5) { lost = start + i; break; } }
+  if (S.knock && S.k - S.knock.k > 3) S.knock = null;
+  let say;
+  if (S.knock) {
+    const kn = S.knock, back = Math.cos(S.th[kn.i]) * ek > 0;
+    if (kn.k === S.k) say = T('Knocked one upside down.', 'เคาะกลับหัวไปตัวหนึ่ง');
+    else if (S.hands && back) say = T('The neighbors pulled it back. That\'s what joined hands do.', 'ตัวข้างๆ ดึงมันกลับมาแล้ว นี่แหละการจับมือกัน');
+    else if (S.hands) say = T('Still crooked. Too sloppy for the crowd to fix.', 'ยังเบี้ยวอยู่ เตะเบี้ยวเกินกว่าที่ฝูงจะแก้ได้');
+    else say = T('Alone, it stays wrong. Nobody pulls it back.', 'อยู่คนเดียว มันก็ผิดไปตลอด ไม่มีใครดึงกลับ');
+  }
+  else if (S.boot >= .995 && !S.hands) say = T('Perfect boot: easy, even alone. Now slide it to sloppy.', 'เตะเป๊ะ: ง่าย อยู่คนเดียวก็ได้ ลองเลื่อนให้เบี้ยวดู');
+  else if (!S.hands && sc < .6) say = T(`Alone, they drift off the beat. Lost it by kick ${lost}.`, `อยู่คนเดียว หลุดจังหวะ หลุดตั้งแต่เตะที่ ${lost}`);
+  else if (S.hands && sc >= .8) say = T('Hands joined, they pull each other back. Still on the beat.', 'จับมือกัน ดึงกันกลับมา ยังตรงจังหวะ');
+  else if (S.hands && sc < .6) say = T('Too sloppy. Even with hands joined, they lose it. Lab ones have a limit too.', 'เบี้ยวเกินไป จับมือกันก็ไม่รอด ของในแล็บก็มีขีดจำกัดเหมือนกัน');
+  else say = T('Wobbly, but hangin\' on.', 'โยกเยก แต่ยังเกาะจังหวะอยู่');
+  sayText('slSay', say);
+  const f = v => v ? v + '%' : '—';
+  $('slBest').textContent = T(`Sloppiest boot that lasted 20 kicks · alone: ${f(S.best.a)} · hands joined: ${f(S.best.h)}`, `เตะเบี้ยวสุดที่ยังรอด 20 เตะ · อยู่คนเดียว: ${f(S.best.a)} · จับมือกัน: ${f(S.best.h)}`);
+}
+renders.push(slRender);
+function slKick() {
+  slStep();
+  S.mags.forEach((m, i) => { m.a = S.th[i]; if (MOTION) m.vh = 3; });
+  if (S.listen) sound(S.hist[S.hist.length - 1]);
+  slBest(); slRender(); wake();
+}
+function slKnock(m) {
+  S.th[m.i] += PI; m.a = S.th[m.i]; if (MOTION) m.vh = 7;
+  S.knock = { i: m.i, k: S.k }; slRender(); wake();
+}
+$('slBoot').addEventListener('input', e => { S.boot = +e.target.value / 100; slReset(); });
+$('slHands').addEventListener('click', () => { S.hands = !S.hands; slReset(); });
+$('slKick').addEventListener('click', slKick);
+$('slLine').addEventListener('click', slReset);
+$('slAuto').addEventListener('click', () => { S.auto = !S.auto; $('slAuto').setAttribute('aria-pressed', S.auto); wake(); });
+$('slListen').addEventListener('click', () => { S.listen = !S.listen; $('slListen').setAttribute('aria-pressed', S.listen); if (S.listen) { audio(); if (!S.auto) { S.auto = true; $('slAuto').setAttribute('aria-pressed', true); } } wake(); });
+jobs.add(now => {
+  if (!S.auto || !vis.sloppy || document.hidden) return false;
+  if (now - S.last > 620) { S.last = now; slKick(); }
+  return true;
+});
+let AC = null;
+function audio() { try { if (!AC) AC = new (window.AudioContext || window.webkitAudioContext)(); if (AC.state === 'suspended') AC.resume(); } catch (e) { AC = null; } }
+function tone(f, g, d, type) {
+  if (!AC) return; const t = AC.currentTime; const o = AC.createOscillator(), v = AC.createGain();
+  o.type = type; o.frequency.value = f; v.gain.setValueAtTime(g, t); v.gain.exponentialRampToValueAtTime(.0001, t + d);
+  o.connect(v).connect(AC.destination); o.start(t); o.stop(t + d + .02);
+}
+function sound(up) {
+  tone(75, .45, .16, 'sine');
+  if (up > .15) { tone(880, .22 * up, .5, 'triangle'); try { navigator.vibrate && navigator.vibrate(25); } catch (e) {} }
+}
+
+/* ---------- heat jars: a fire that spreads, a fire stuck in mud ---------- */
+const HT = { k: 0, run: 0, last: 0, rnd: rng(23), jars: {}, hops: [], lit: false };
+(function () {
+  const s = $('heatSvg');
+  [[20, 'plain'], [378, 'mud']].forEach(([x0, kind]) => {
+    el('rect', { x: x0 + 14, y: 30, width: 236, height: 20, rx: 6, class: 'lid' }, s);
+    el('rect', { x: x0, y: 46, width: 264, height: 214, rx: 26, class: 'jar' }, s);
+    const lab = el('text', { x: x0 + 132, y: 290, 'text-anchor': 'middle', class: 't-lab' }, s);
+    const tx = x0 + 292, cls = kind === 'plain' ? 'f-hot' : 'f-cool';
+    el('rect', { x: tx - 9, y: 56, width: 18, height: 170, rx: 9, class: 'therm' }, s);
+    el('circle', { cx: tx, cy: 236, r: 16, class: 'therm' }, s);
+    el('circle', { cx: tx, cy: 236, r: 11, class: cls }, s);
+    const fill = el('rect', { x: tx - 5, y: 222, width: 10, height: 8, rx: 4, class: cls }, s);
+    const J = { kind, lab, fill, mags: [], glow: [], fire: [], h: new Array(12).fill(0) };
+    const depth = [9, 4, 14, 6, 12, 5, 10, 15, 3, 8, 13, 7];
+    for (let i = 0; i < 12; i++) {
+      const x = x0 + 42 + (i % 4) * 60, y = 98 + Math.floor(i / 4) * 60;
+      if (kind === 'mud') el('ellipse', { cx: x, cy: y + 14, rx: 27, ry: depth[i] + 4, class: 'f-mud' }, s);
+      const m = Magnet(s, x, y, 19, mm => heatLight(J, mm.i)); m.i = i;
+      const gl = el('circle', { r: 19, class: 'f-hot', opacity: 0 }); m.g.insertBefore(gl, m.n);
+      J.mags.push(m); J.glow.push(gl);
+    }
+    J.mags.forEach(m => J.fire.push(el('path', { d: 'M0 -16Q9 -5 4 3Q0 7 -4 3Q-9 -5 0 -16Z', class: 'flame', opacity: 0, 'pointer-events': 'none', transform: `translate(${m.x} ${m.y - 22})` }, s)));
+    HT.jars[kind] = J;
+  });
+  HT.fg = el('g', { 'pointer-events': 'none' }, s);
+  heatPaint(); heatRender();
+})();
+function heatMean(J) { return J.h.reduce((a, b) => a + b, 0) / J.h.length; }
+function heatNb(i) { const c = i % 4, r = Math.floor(i / 4), o = []; if (c > 0) o.push(i - 1); if (c < 3) o.push(i + 1); if (r > 0) o.push(i - 4); if (r < 2) o.push(i + 4); return o; }
+function heatLight(J, i) { J.h[i] = 1; HT.lit = true; if (MOTION) J.mags[i].vh = 6; heatPaint(); heatRender(); wake(); }
+function heatHop(a, b) { HT.hops.push({ x: a.x, y: a.y - 30, tx: b.x, ty: b.y - 30, t: 0, e: el('circle', { r: 6, class: 'flame' }, HT.fg) }); }
+function heatKick() {
+  HT.k++;
+  const P = HT.jars.plain, h = P.h, n = h.slice(), mean = heatMean(P);
+  for (let i = 0; i < 12; i++) {
+    const nb = heatNb(i); let src = nb[0];
+    nb.forEach(j => { if (h[j] > h[src]) src = j; });
+    n[i] = Math.min(1, h[i] + .3 * Math.max(0, h[src] - h[i]) + .006 + .03 * mean);
+    if (MOTION && h[i] < .35 && n[i] >= .35 && h[src] >= .35 && HT.hops.length < 12) heatHop(P.mags[src], P.mags[i]);
+  }
+  P.h = n;
+  Object.values(HT.jars).forEach(J => J.mags.forEach((m, i) => { m.a = HT.k * PI + J.h[i] * PI * .9 * (HT.rnd() * 2 - 1); }));
+  heatPaint(); heatRender();
+}
+function heatPaint() {
+  Object.values(HT.jars).forEach(J => {
+    J.h.forEach((h, i) => { J.glow[i].setAttribute('opacity', (h * .55).toFixed(2)); J.fire[i].setAttribute('opacity', h >= .35 ? 1 : 0); });
+    const H = 8 + heatMean(J) * 160; J.fill.setAttribute('y', (230 - H).toFixed(1)); J.fill.setAttribute('height', H.toFixed(1));
+  });
+}
+function heatRender() {
+  const P = HT.jars.plain, M = HT.jars.mud;
+  P.lab.textContent = T('Plain', 'ธรรมดา'); M.lab.textContent = T('Stuck in mud', 'ติดโคลน');
+  const mp = heatMean(P), fires = P.h.filter(h => h >= .35).length, mudFire = M.h.some(h => h >= .35);
+  let s;
+  if (HT.k === 0) s = HT.lit ? T('Fire lit. Now kick.', 'จุดไฟแล้ว ทีนี้เตะ') : T('Same kicks, both jars. Tap a magnet to set it on fire. Then kick.', 'สองโหล เตะเท่ากัน แตะแม่เหล็กเพื่อจุดไฟ แล้วเตะ');
+  else {
+    const p = mp > .75 ? T('hot mush', 'ร้อนเละ') : (fires > 0 && fires < 12) ? T('fire\'s spreadin\'', 'ไฟกำลังลาม') : mp > .2 ? T('warmin\' up', 'เริ่มอุ่น') : T('still cool', 'ยังเย็น');
+    const m = mudFire ? T('the fire stays put', 'ไฟอยู่กับที่ ไม่ลาม') : T('still flippin\' neat', 'ยังพลิกเรียบร้อย');
+    s = T(`Kick ${HT.k}. Plain jar: ${p}. Mud jar: ${m}.`, `เตะที่ ${HT.k} โหลธรรมดา: ${p} โหลติดโคลน: ${m}`);
+  }
+  sayText('heatSay', s);
+}
+renders.push(heatRender);
+$('heatKick').addEventListener('click', () => { heatKick(); wake(); });
+$('heatRun').addEventListener('click', () => {
+  if (!MOTION) { for (let i = 0; i < 100; i++) heatKick(); Object.values(HT.jars).forEach(J => J.mags.forEach(m => { m.shown = m.a; draw(m); })); return; }
+  HT.run += 100; wake();
+});
+$('heatReset').addEventListener('click', () => {
+  HT.run = 0; HT.k = 0; HT.lit = false;
+  Object.values(HT.jars).forEach(J => { J.h = new Array(12).fill(0); J.mags.forEach(m => { m.a = 0; m.shown = 0; draw(m); }); });
+  HT.hops.forEach(f => f.e.remove()); HT.hops = [];
+  heatPaint(); heatRender();
+});
+jobs.add(now => {
+  let busy = false;
+  if (HT.run > 0 && !document.hidden) { busy = true; if (now - HT.last > 70) { HT.last = now; HT.run--; heatKick(); } }
+  HT.hops = HT.hops.filter(f => {
+    f.t += .05; const u = Math.min(1, f.t);
+    const x = f.x + (f.tx - f.x) * u, y = f.y + (f.ty - f.y) * u - Math.sin(u * PI) * 30;
+    f.e.setAttribute('cx', x.toFixed(1)); f.e.setAttribute('cy', y.toFixed(1)); f.e.setAttribute('opacity', (1 - u * .7).toFixed(2));
+    if (u >= 1) { f.e.remove(); return false; } busy = true; return true;
+  });
+  if (MOTION && vis.heat && !document.hidden) {
+    Object.values(HT.jars).forEach(J => J.fire.forEach((f, i) => {
+      if (J.h[i] < .35) return; busy = true;
+      const m = J.mags[i], sc = 1 + .14 * Math.sin(now / 80 + i * 1.7);
+      f.setAttribute('transform', `translate(${m.x} ${(m.y - 22).toFixed(1)}) scale(${(2 - sc).toFixed(3)} ${sc.toFixed(3)})`);
+    }));
+  }
+  return busy;
+});
+
+/* ---------- steady lamp: a dimmer, and clouds you can nudge ---------- */
+const ST = { P: 1.1, light: .7, t: 0, acc: 0, lastNow: 0, rows: [], rnd: rng(31), msg: '' };
+const ST_N = 112, ST_DT = .05;
+(function () {
+  const s = $('stSvg');
+  [55, 150, 245].forEach(y => {
+    const beam = el('line', { x1: 48, y1: y, x2: 106, y2: y, class: 'beam' }, s);
+    el('rect', { x: 18, y: y - 20, width: 34, height: 40, rx: 8, class: 'lamp' }, s);
+    el('rect', { x: 26, y: y - 28, width: 18, height: 8, rx: 2, class: 'f-ink' }, s);
+    el('line', { x1: 110, y1: y - 34, x2: 110, y2: y + 34, class: 'mirror' }, s);
+    el('line', { x1: 210, y1: y - 34, x2: 210, y2: y + 34, class: 'mirror' }, s);
+    const cl = el('circle', { cx: 160, cy: y, r: 22, class: 'cloud' }, s);
+    const hit = el('rect', { x: 114, y: y - 42, width: 92, height: 84, fill: 'transparent', style: 'cursor:pointer' }, s);
+    el('rect', { x: 240, y: y - 34, width: 466, height: 68, rx: 10, class: 'lane' }, s);
+    const tr = el('polyline', { class: 'trace', points: '' }, s);
+    const pk = el('g', {}, s);
+    const r = { y, cl, tr, pk, beam, A: 0, ph: 0, on: false, delay: -1, b: 0, buf: new Array(ST_N).fill(0), peaks: [], pulse: 0 };
+    hit.addEventListener('click', () => stNudge(r));
+    ST.rows.push(r);
+  });
+  el('line', { x1: 700, y1: 14, x2: 700, y2: 286, class: 'nowline' }, s);
+  ST.now = el('text', { x: 694, y: 296, 'text-anchor': 'end', class: 't-lab' }, s);
+  stRun(6.5); stDraw();
+})();
+function stSim() {
+  const lit = ST.light >= .5, target = lit ? .45 + .55 * (ST.light - .5) / .5 : 0;
+  ST.rows.forEach(r => {
+    if (!lit) { r.on = false; r.delay = -1; }
+    else if (!r.on) { if (r.delay < 0) r.delay = .3 + ST.rnd() * 1.4; r.delay -= ST_DT; if (r.delay <= 0) { r.on = true; r.ph = ST.rnd() * TAU; } }
+    r.A += ((r.on ? target : 0) - r.A) * .11;
+    const before = Math.floor(r.ph / TAU); r.ph += TAU * ST_DT / ST.P;
+    if (r.on && r.A > .2 && Math.floor(r.ph / TAU) > before) { r.peaks.push(ST.t); if (r.peaks.length > 12) r.peaks.shift(); }
+    r.b = r.A * (.5 + .5 * Math.cos(r.ph)) + (r.on ? 0 : .05 * ST.light * (1 + Math.sin(ST.t * 23 + r.y)));
+    r.buf.push(r.b); r.buf.shift();
+  });
+  ST.t += ST_DT;
+}
+function stRun(sec) { for (let n = Math.round(sec / ST_DT); n > 0; n--) stSim(); }
+function stDraw() {
+  const tLast = ST.t - ST_DT, span = (ST_N - 1) * ST_DT;
+  ST.rows.forEach(r => {
+    r.cl.setAttribute('opacity', (.2 + .8 * r.b).toFixed(2));
+    r.beam.style.opacity = (.08 + .6 * ST.light).toFixed(2);
+    r.tr.setAttribute('points', r.buf.map((b, j) => (246 + 454 * j / (ST_N - 1)).toFixed(1) + ',' + (r.y + 26 - 52 * b).toFixed(1)).join(' '));
+    r.pk.textContent = '';
+    r.peaks.forEach(tp => { const x = 700 - 454 * (tLast - tp) / span; if (x >= 246 && x <= 701) el('circle', { cx: x.toFixed(1), cy: r.y - 26, r: 5, class: 'peak' }, r.pk); });
+  });
+}
+function stNudge(r) {
+  r.pulse = 1;
+  if (r.on && r.A > .2) { r.ph += (ST.rnd() < .5 ? -1 : 1) * TAU * (.25 + .2 * ST.rnd()); ST.msg = 'nudge'; }
+  if (!MOTION) stRun(2);
+  stDraw(); renderSt(); wake();
+}
+function renderSt() {
+  ST.now.textContent = T('now', 'ตอนนี้');
+  $('stLightLab').textContent = T(`Light: ${Math.round(ST.light * 100)}%`, `แสง: ${Math.round(ST.light * 100)}%`);
+  let s;
+  if (ST.light < .5) s = T('Too dim. They sit still.', 'แสงอ่อนไป มันนิ่งเฉย');
+  else if (ST.msg === 'nudge') s = T('Nudged. New start, same pace.', 'สะกิดแล้ว จุดเริ่มเปลี่ยน จังหวะเท่าเดิม');
+  else s = T('Same pace. Different start. Nobody told \'em when.', 'จังหวะเท่ากัน จุดเริ่มต่างกัน ไม่มีใครบอกว่าเริ่มเมื่อไร');
+  sayText('stSay', s);
+}
+renders.push(renderSt);
+$('stGo').addEventListener('click', () => {
+  if (ST.light < .5) { ST.light = .7; $('stLightR').value = 70; }
+  ST.rows.forEach(r => { r.on = false; r.A = 0; r.delay = -1; });
+  ST.msg = '';
+  if (!MOTION) stRun(6.5);
+  stDraw(); renderSt(); wake();
+});
+$('stLightR').addEventListener('input', e => { ST.light = +e.target.value / 100; ST.msg = ''; if (!MOTION) stRun(6.5); stDraw(); renderSt(); wake(); });
+jobs.add(now => {
+  if (!MOTION || !vis.steady || document.hidden) { ST.lastNow = 0; return false; }
+  const dt = ST.lastNow ? Math.min(.1, (now - ST.lastNow) / 1000) : 0; ST.lastNow = now;
+  ST.acc += dt; while (ST.acc >= ST_DT) { ST.acc -= ST_DT; stSim(); }
+  ST.rows.forEach(r => { if (r.pulse > 0) r.pulse = Math.max(0, r.pulse - .06); r.cl.setAttribute('r', (22 + 10 * Math.sin(r.pulse * PI)).toFixed(1)); });
+  stDraw();
+  return true;
+});
+
+/* ---------- foam beads lifted by sound (New York, 2026) ----------
+   Cartoon of Morrell, Elliott & Grier, PRL 136, 057201 (2026): the opposite-ways swing grows when the two
+   sizes differ a little, dies away when they match or differ too much. Swing drawn 60x slower than 66.8 Hz. */
+const BD = { d1: 3.3, d2: 2.9, on: true, s: 0, vs: 0, a: 0, va: 0, fall: 0, acc: 0, lastNow: 0, rnd: rng(53), tried: 0, swung: 0, h1: [], h2: [], amp: 0, k: 0, msg: '', msgT: 0, wt: 0 };
+const BD_W = TAU * 1.1, BD_DT = 1 / 120, BD_N = 150, BD_Y1 = 135, BD_Y2 = 195;
+(function () {
+  const s = $('bdSvg');
+  el('rect', { x: 46, y: 22, width: 14, height: 290, rx: 4, class: 'f-wood' }, s);
+  el('rect', { x: 280, y: 22, width: 14, height: 290, rx: 4, class: 'f-wood' }, s);
+  el('path', { d: 'M56 26Q170 92 284 26V14H56Z', class: 'bowl' }, s);
+  el('path', { d: 'M56 304Q170 238 284 304V316H56Z', class: 'bowl' }, s);
+  for (let i = 0; i < 9; i++) {
+    const u = (i + .5) / 9, x = 56 + 228 * u, yt = 26 + 66 * 4 * u * (1 - u) * .5, yb = 304 - 66 * 4 * u * (1 - u) * .5;
+    el('circle', { cx: x.toFixed(1), cy: (yt - 4).toFixed(1), r: 8, class: 'spk' }, s);
+    el('circle', { cx: x.toFixed(1), cy: (yb + 4).toFixed(1), r: 8, class: 'spk' }, s);
+  }
+  BD.waveG = el('g', {}, s);
+  BD.waves = [el('polyline', { class: 'snd', points: '' }, BD.waveG), el('polyline', { class: 'snd', points: '' }, BD.waveG)];
+  [75, 135, 195, 255].forEach(y => { el('line', { x1: 64, y1: y, x2: 92, y2: y, class: 'nodeline' }, s); el('line', { x1: 248, y1: y, x2: 276, y2: y, class: 'nodeline' }, s); });
+  BD.b1 = el('circle', { cx: 170, cy: BD_Y1, r: 23, class: 'bead' }, s);
+  BD.b2 = el('circle', { cx: 170, cy: BD_Y2, r: 20, class: 'bead' }, s);
+  BD.b1.addEventListener('click', () => bdPoke(1)); BD.b2.addEventListener('click', () => bdPoke(2));
+  el('rect', { x: 320, y: 30, width: 388, height: 270, rx: 10, class: 'lane' }, s);
+  el('line', { x1: 320, y1: 165, x2: 708, y2: 165, class: 'nowline' }, s);
+  BD.tr1 = el('polyline', { class: 'tr1', points: '' }, s);
+  BD.tr2 = el('polyline', { class: 'tr2', points: '' }, s);
+  el('circle', { cx: 340, cy: 52, r: 7, class: 'dot1' }, s); BD.l1 = el('text', { x: 354, y: 60, class: 't-lab' }, s);
+  el('circle', { cx: 340, cy: 286, r: 7, class: 'dot2' }, s); BD.l2 = el('text', { x: 354, y: 294, class: 't-lab' }, s);
+  BD.amp1 = el('text', { x: 700, y: 60, 'text-anchor': 'end', class: 't-lab' }, s);
+  for (let i = 0; i < BD_N; i++) { BD.h1.push(0); BD.h2.push(0); }
+  if (!MOTION) bdRun(6);
+  bdDraw(performance.now());
+})();
+function bdGain() {
+  const big = Math.max(BD.d1, BD.d2), small = Math.min(BD.d1, BD.d2), r = big / small;
+  const w = r > 1 && r < 1.22 ? Math.sin(PI * (r - 1) / .22) : 0;
+  return w - .4 * (3 / small) ** 2;
+}
+function bdStep() {
+  const dt = BD_DT, mu = bdGain(), n = () => (BD.rnd() * 2 - 1) * 26 * dt;
+  BD.va += (-BD_W * BD_W * BD.a + BD_W * (mu - (BD.a / 9) ** 2) * BD.va) * dt + n();
+  BD.a += BD.va * dt;
+  BD.vs += (-BD_W * BD_W * BD.s - 1.6 * BD.vs) * dt + n();
+  BD.s += BD.vs * dt;
+  BD.amp = Math.max(Math.abs(BD.a), BD.amp * Math.exp(-dt / 1.2));
+  if (++BD.k % 4 === 0) { BD.h1.push(BD.s + BD.a); BD.h2.push(BD.s - BD.a); BD.h1.shift(); BD.h2.shift(); }
+}
+function bdRun(sec) { for (let n = Math.round(sec / BD_DT); n > 0; n--) bdStep(); }
+function bdDraw(now) {
+  const r1 = BD.d1 * 7, r2 = BD.d2 * 7;
+  const f = BD.fall, ease = f * f;
+  const y1 = BD.on ? BD_Y1 + BD.s + BD.a : BD_Y1 + (276 - r1 - BD_Y1) * ease;
+  const y2 = BD.on ? BD_Y2 + BD.s - BD.a : BD_Y2 + (278 - r2 - BD_Y2) * ease;
+  BD.b1.setAttribute('r', r1.toFixed(1)); BD.b2.setAttribute('r', r2.toFixed(1));
+  BD.b1.setAttribute('cx', BD.on ? 170 : (170 - 26 * ease).toFixed(1)); BD.b2.setAttribute('cx', BD.on ? 170 : (170 + 26 * ease).toFixed(1));
+  BD.b1.setAttribute('cy', y1.toFixed(1)); BD.b2.setAttribute('cy', y2.toFixed(1));
+  BD.waveG.setAttribute('opacity', BD.on ? 1 : 0);
+  if (BD.on) {
+    const c = MOTION ? Math.cos(TAU * now / 700) : 1;
+    [1, -1].forEach((sg, j) => { const pts = []; for (let y = 60; y <= 270; y += 5) pts.push((170 + sg * 44 * Math.sin(TAU * (y - BD_Y1) / 120) * c).toFixed(1) + ',' + y); BD.waves[j].setAttribute('points', pts.join(' ')); });
+  }
+  const px = i => (326 + 376 * i / (BD_N - 1)).toFixed(1);
+  BD.tr1.setAttribute('points', BD.h1.map((v, i) => px(i) + ',' + (110 - v * 2.6).toFixed(1)).join(' '));
+  BD.tr2.setAttribute('points', BD.h2.map((v, i) => px(i) + ',' + (220 - v * 2.6).toFixed(1)).join(' '));
+}
+function bdPoke(which) {
+  if (!BD.on) return;
+  const kick = (BD.rnd() < .5 ? -1 : 1) * 90;
+  BD.vs += kick; BD.va += which === 1 ? kick : -kick;
+  const b = which === 1 ? BD.b1 : BD.b2; b.classList.add('pop'); setTimeout(() => b.classList.remove('pop'), 300);
+  BD.msg = 'poke'; BD.msgT = performance.now();
+  if (!MOTION) bdRun(4);
+  renderBeads(); wake();
+}
+function bdSet(d1, d2, random) {
+  BD.d1 = d1; BD.d2 = d2; $('bdTop').value = Math.round(d1 * 10); $('bdBot').value = Math.round(d2 * 10);
+  if (random) { BD.tried++; if (bdGain() > 0) BD.swung++; }
+  BD.msg = ''; if (!MOTION) bdRun(6);
+  renderBeads(); wake();
+}
+function renderBeads() {
+  $('bdTopLab').textContent = T(`Top bead: ${BD.d1.toFixed(1)} mm`, `เม็ดบน: ${BD.d1.toFixed(1)} มม.`);
+  $('bdBotLab').textContent = T(`Bottom bead: ${BD.d2.toFixed(1)} mm`, `เม็ดล่าง: ${BD.d2.toFixed(1)} มม.`);
+  $('bdSoundLab').textContent = BD.on ? T('Sound on', 'เปิดเสียง') : T('Sound off', 'ปิดเสียง');
+  $('bdSound').setAttribute('aria-checked', BD.on);
+  BD.l1.textContent = T('top bead', 'เม็ดบน'); BD.l2.textContent = T('bottom bead', 'เม็ดล่าง');
+  const mu = bdGain(), r = Math.max(BD.d1, BD.d2) / Math.min(BD.d1, BD.d2), fresh = performance.now() - BD.msgT < 3500;
+  BD.amp1.textContent = BD.on && mu > 0 && BD.amp > 6 ? T('opposite ways', 'สวนทางกัน') : '';
+  let s;
+  if (!BD.on) s = T('Sound off. Down they go.', 'ปิดเสียง ร่วงหมด');
+  else if (BD.msg === 'back' && fresh) s = T('Sound on. Beads put back in their spots.', 'เปิดเสียง วางเม็ดโฟมกลับที่เดิมแล้ว');
+  else if (BD.msg === 'poke' && fresh) s = mu > 0 ? T('Poked. It settles back to the same swing.', 'จิ้มแล้ว มันกลับมาแกว่งขนาดเดิม') : T('Poked. It rings, then sits still again.', 'จิ้มแล้ว มันสั่นแล้วก็กลับมานิ่ง');
+  else if (mu > 0 && BD.amp > 6) s = T('Swinging opposite ways, on their own beat. In the lab: about 67 times a second.', 'แกว่งสวนทางกัน ด้วยจังหวะของมันเอง ในแล็บ: ราว 67 ครั้งต่อวินาที');
+  else if (mu > 0) s = T('Somethin\'s startin\'...', 'เริ่มขยับแล้ว...');
+  else if (Math.abs(BD.d1 - BD.d2) < .05) s = T('Same size: they sit still. Nobody pushes harder.', 'ขนาดเท่ากัน: นิ่ง ไม่มีใครดันแรงกว่า');
+  else if (r >= 1.22) s = T('Too different. They sit still.', 'ต่างกันเกินไป นิ่ง');
+  else s = T('They sit still. Most pairs do.', 'นิ่ง คู่ส่วนใหญ่ก็นิ่งแบบนี้');
+  sayText('bdSay', s);
+  $('bdTally').textContent = BD.tried ? T(`Random pairs tried: ${BD.tried} · swung: ${BD.swung}`, `สุ่มไปแล้ว: ${BD.tried} คู่ · แกว่ง: ${BD.swung}`) : '';
+}
+renders.push(renderBeads);
+$('bdTop').addEventListener('input', e => bdSet(+e.target.value / 10, BD.d2));
+$('bdBot').addEventListener('input', e => bdSet(BD.d1, +e.target.value / 10));
+$('bdLab').addEventListener('click', () => bdSet(3.3, 2.9));
+$('bdSame').addEventListener('click', () => bdSet(3.1, 3.1));
+$('bdRandom').addEventListener('click', () => bdSet((20 + Math.floor(BD.rnd() * 21)) / 10, (20 + Math.floor(BD.rnd() * 21)) / 10, true));
+$('bdSound').addEventListener('click', () => {
+  BD.on = !BD.on;
+  if (BD.on) { BD.a = 0; BD.va = 0; BD.s = 0; BD.vs = 0; BD.amp = 0; BD.fall = 0; BD.msg = 'back'; BD.msgT = performance.now(); if (!MOTION) bdRun(6); }
+  else { BD.fall = MOTION ? 0 : 1; }
+  renderBeads(); bdDraw(performance.now()); wake();
+});
+jobs.add(now => {
+  if (!vis.beads || document.hidden) { BD.lastNow = 0; return false; }
+  if (!MOTION) { bdDraw(now); return false; }
+  const dt = BD.lastNow ? Math.min(.1, (now - BD.lastNow) / 1000) : 0; BD.lastNow = now;
+  if (BD.on) { BD.acc += dt; while (BD.acc >= BD_DT) { BD.acc -= BD_DT; bdStep(); } }
+  else if (BD.fall < 1) BD.fall = Math.min(1, BD.fall + dt * 2.2);
+  bdDraw(now);
+  if (now - BD.wt > 300) { BD.wt = now; renderBeads(); }
+  return true;
+});
+
+/* ---------- build one: the ladder, the parts, the kit ---------- */
+const REPO = 'https://github.com/NaNoBotCo/chronos';
+const KIT = { pick: 1, url: '', mail: 'nan@motdang.net', tiers: [
+  { usd: 129, thb: 4499, en: 'Student', th: 'นักเรียน', noteEn: 'Close to cost. A few open each month; every Supporter order opens one more.', noteTh: 'เกือบเท่าทุน เปิดไม่กี่ชุดต่อเดือน ทุกออเดอร์ผู้สนับสนุนเปิดเพิ่มอีกหนึ่งชุด' },
+  { usd: 149, thb: 4999, en: 'Standard', th: 'ปกติ', noteEn: 'Covers the kit, the postage and the work of sending it.', noteTh: 'ครอบคลุมค่าชุด ค่าส่ง และงานจัดส่ง' },
+  { usd: 199, thb: 6999, en: 'Supporter', th: 'ผู้สนับสนุน', noteEn: 'Opens one more Student kit for somebody else.', noteTh: 'เปิดชุดราคานักเรียนเพิ่มอีกหนึ่งชุดให้คนอื่น' }
+] };
+const RUNGS = [
+  ['One bead floats.', 'เม็ดเดียวลอย', 'Sound sets a bead floating in one spot.', 'เสียงทำให้เม็ดโฟมลอยนิ่งอยู่จุดเดียว'],
+  ['Two beads, two spots.', 'สองเม็ด สองจุด', 'One in each of two spots next to each other.', 'เม็ดละจุด สองจุดติดกัน'],
+  ['Film it. Measure it.', 'ถ่ายไว้ วัดผล', '240 frames a second, 100 seconds. The code turns video into heights.', '240 เฟรมต่อวินาที 100 วินาที โค้ดแปลงวิดีโอเป็นความสูง'],
+  ['Opposite swing that lasts.', 'แกว่งสวนกันได้นาน', 'A steady peak near 67 Hz in the opposite-ways motion, and none with one bead alone. This is the time crystal.', 'มียอดคงที่ราว 67 Hz ในการแกว่งสวนกัน และไม่มีเมื่อมีเม็ดเดียว นี่คือผลึกเวลา'],
+  ['Again, with other pairs.', 'ทำซ้ำกับคู่อื่น', 'Same result from more pairs, with the misses written down too.', 'ได้ผลเดิมกับหลายคู่ จดคู่ที่ไม่ได้ผลไว้ด้วย']
+];
+let rungDone = new Set();
+try { const v = JSON.parse(localStorage.getItem('tc-rungs') || '[]'); if (Array.isArray(v)) rungDone = new Set(v); } catch (e) {}
+const RUNG_PIC = [
+  '<circle cx="30" cy="26" r="7" class="bead"/><path d="M8 8Q30 18 52 8M8 52Q30 42 52 52" class="snd2"/>',
+  '<circle cx="30" cy="20" r="6.5" class="bead"/><circle cx="30" cy="38" r="5.5" class="bead"/><path d="M8 6Q30 14 52 6M8 54Q30 46 52 54" class="snd2"/>',
+  '<rect x="10" y="16" width="40" height="28" rx="5" class="f-panel" stroke="currentColor" stroke-width="2.5"/><circle cx="30" cy="30" r="8" fill="none" stroke="currentColor" stroke-width="2.5"/><rect x="38" y="11" width="9" height="6" rx="2" class="f-muted"/>',
+  '<path d="M6 46H54" stroke="currentColor" stroke-width="2"/><path d="M8 44L18 43L24 40L28 12L32 40L38 43L52 44" fill="none" stroke="var(--trace)" stroke-width="3" stroke-linejoin="round"/>',
+  '<circle cx="14" cy="22" r="5" class="bead"/><circle cx="14" cy="38" r="4" class="bead"/><circle cx="30" cy="22" r="5.5" class="bead"/><circle cx="30" cy="38" r="4.5" class="bead"/><circle cx="46" cy="22" r="4.5" class="bead"/><circle cx="46" cy="38" r="5.2" class="bead"/>'
+];
+function renderLadder() {
+  $('ladder').innerHTML = RUNGS.map((r, i) => `<li><button type="button" class="rung${i === 3 ? ' star' : ''}" data-i="${i}" aria-pressed="${rungDone.has(i)}"><svg viewBox="0 0 60 60" aria-hidden="true" style="color:var(--ink)">${RUNG_PIC[i]}</svg><span><b>${i + 1}. ${T(r[0], r[1])}</b><br>${T(r[2], r[3])}</span></button></li>`).join('');
+}
+renders.push(renderLadder);
+$('ladder').addEventListener('click', e => {
+  const b = e.target.closest('.rung'); if (!b) return;
+  const i = +b.dataset.i; if (rungDone.has(i)) rungDone.delete(i); else rungDone.add(i);
+  try { localStorage.setItem('tc-rungs', JSON.stringify([...rungDone])); } catch (err) {}
+  b.setAttribute('aria-pressed', rungDone.has(i));
+  if (MOTION && b.animate) b.animate([{ transform: 'scale(1)' }, { transform: 'scale(1.03)' }, { transform: 'scale(1)' }], { duration: 220 });
+});
+const PARTS = [
+  ['Levitator kit, TinyLev design', 'ชุดเครื่องลอยด้วยเสียง แบบ TinyLev', '1', '$70–100', '76 speakers (10 mm, 40 kHz), Arduino Nano, L298N driver board, switch, 9 V adapter.', 'ลำโพง 76 ตัว (10 มม. 40 kHz) Arduino Nano บอร์ดขับ L298N สวิตช์ อะแดปเตอร์ 9 V', [['Tindie', 'https://www.tindie.com/products/makerfabs/acoustic-levitator-kit/'], ['Elektor', 'https://elektor.com/products/makerfabs-acoustic-levitator-diy-kit'], ['RobotShop', 'https://uk.robotshop.com/products/acoustic-levitator-kit']]],
+  ['Step-down board, adjustable', 'บอร์ดลดแรงดัน ปรับได้', '1', '$1–3', 'LM2596. Turns the sound up and down.', 'LM2596 ใช้ปรับเสียงให้แรงหรือเบา', [['AliExpress', 'https://www.aliexpress.com/w/wholesale-lm2596-adjustable-step-down.html']]],
+  ['Foam beads, 2–4 mm', 'เม็ดโฟม 2–4 มม.', '1 bag', '$2–5', 'Expanded polystyrene. Bean-bag filler works.', 'โฟม EPS ไส้บีนแบ็กก็ใช้ได้', [['AliExpress', 'https://www.aliexpress.com/w/wholesale-eps-foam-beads-2mm.html']]],
+  ['Bead gauge', 'ที่วัดเม็ดโฟม', '1', '$0–2', 'A printed plate with holes from 2.0 to 4.0 mm. File in the repo.', 'แผ่นพิมพ์ 3 มิติ มีรูตั้งแต่ 2.0 ถึง 4.0 มม. ไฟล์อยู่ในรีโพ', [['repo', REPO + '/tree/main/hardware']]],
+  ['Black card and a steady lamp', 'กระดาษดำด้านและไฟนิ่ง', '1 each', '$5–15', 'Dark back, bright beads. An LED lamp that does not flicker on camera.', 'พื้นหลังมืด เม็ดโฟมสว่าง ไฟ LED ที่ไม่กะพริบในกล้อง', []],
+  ['Phone that films 240 frames a second', 'มือถือที่ถ่ายได้ 240 เฟรมต่อวินาที', '1', '$0', 'Borrow one first. A machine-vision camera comes later, if ever.', 'ยืมก่อน กล้องแมชชีนวิชันค่อยว่ากันทีหลัง', []]
+];
+function renderParts() {
+  $('parts').innerHTML = PARTS.map(p => `<div class="part"><div class="pq">${esc(p[2])}</div><div class="pn"><b>${esc(T(p[0], p[1]))}</b><br><span>${esc(T(p[4], p[5]))}</span>${p[6].length ? '<br>' + p[6].map(l => `<a href="${l[1]}">${esc(l[0])}</a>`).join(' · ') : ''}</div><div class="pp">${esc(p[3])}</div></div>`).join('');
+  const k = KIT.tiers[KIT.pick], money = t => T(`$${t.usd} · ฿${t.thb.toLocaleString('en-US')}`, `฿${t.thb.toLocaleString('en-US')} · $${t.usd}`);
+  $('tiers').innerHTML = KIT.tiers.map((t, i) => `<button type="button" data-i="${i}" aria-pressed="${i === KIT.pick}"><b>${esc(T(t.en, t.th))}</b><span>${T('$' + t.usd, '฿' + t.thb.toLocaleString('en-US'))}</span></button>`).join('');
+  $('kitPrice').textContent = money(k);
+  $('tierNote').textContent = T(k.noteEn, k.noteTh);
+  const subj = encodeURIComponent(`Chronos kit: ${k.en} $${k.usd} / ฿${k.thb}`), body = encodeURIComponent(T('Name:\nShip to (full address):\nCountry:\nPhone:\n', 'ชื่อ:\nที่อยู่จัดส่ง (เต็ม):\nประเทศ:\nโทร:\n'));
+  $('kitBtn').href = KIT.url || `mailto:${KIT.mail}?subject=${subj}&body=${body}`;
+  $('kitHow').textContent = KIT.url ? T('Card checkout. Ships in 1 to 3 weeks.', 'จ่ายด้วยบัตร จัดส่งภายใน 1 ถึง 3 สัปดาห์') : T(`Order by email to ${KIT.mail}. The reply says how to pay.`, `สั่งทางอีเมล ${KIT.mail} แล้วจะได้คำตอบว่าจ่ายอย่างไร`);
+}
+renders.push(renderParts);
+$('tiers').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; KIT.pick = +b.dataset.i; renderParts(); const nb = $('tiers').querySelector(`[data-i="${KIT.pick}"]`); if (nb) nb.focus({ preventScroll: true }); });
+
+/* ---------- myth cards ---------- */
+const ICON = {
+  hourglass: '<path d="M16 8H48M16 56H48" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M20 8Q20 28 32 32Q44 36 44 56M44 8Q44 28 32 32Q20 36 20 56" fill="none" stroke="currentColor" stroke-width="3"/><path d="M25 50Q32 40 39 50Z" class="mag-n"/>',
+  bolt: '<path d="M36 4L14 36H30L24 60L50 24H34L40 4Z" class="mag-n"/>',
+  clock: '<rect x="18" y="4" width="28" height="56" rx="6" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="32" cy="18" r="9" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M32 18V12M32 18L36 20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M32 30L38 48" stroke="currentColor" stroke-width="2.5"/><circle cx="38" cy="49" r="5" class="mag-n"/>',
+  rock: '<path d="M8 46Q6 30 20 22Q30 10 44 18Q58 24 56 40Q54 54 34 54Q12 56 8 46Z" class="f-muted"/><path d="M22 30Q28 26 34 30" fill="none" stroke="var(--panel)" stroke-width="3" stroke-linecap="round"/>'
+};
+const MYTHS = [
+  ['hourglass', 'A time machine?', 'เครื่องย้อนเวลา?', 'Nope. Nothin\' travels in time. It\'s a beat.', 'ไม่ใช่ ไม่มีอะไรเดินทางข้ามเวลา มันคือจังหวะ'],
+  ['bolt', 'Free power?', 'พลังงานฟรี?', 'Nope. It needs a push: kicks, or a steady light. Stop pushin\' and it stops. In 2015 two physicists proved stuff sittin\' still can\'t tick on its own.', 'ไม่ใช่ มันต้องมีแรงส่ง จะเตะหรือส่องแสงนิ่งๆ ก็ได้ เลิกส่ง มันก็หยุด ปี 2015 นักฟิสิกส์สองคนพิสูจน์ว่า ของที่อยู่นิ่งๆ เดินจังหวะเองไม่ได้'],
+  ['clock', 'Just a clock?', 'ก็แค่นาฬิกา?', 'A clock is one swingin\' part. This is a whole crowd agreein\' on a beat and stickin\' to it. A new kind of stuff, the way ice is a kind of stuff.', 'นาฬิกามีลูกตุ้มตัวเดียว อันนี้คือทั้งฝูงตกลงจังหวะกันแล้วไม่ยอมปล่อย เป็นสสารแบบใหม่ เหมือนที่น้ำแข็งเป็นสสารแบบหนึ่ง'],
+  ['rock', 'A rock in your hand?', 'ก้อนหินที่ถือได้?', 'Mostly no: a few atoms, flaws in a diamond, or a chip, chilled way down. One 2025 kind shows up under a microscope.', 'ส่วนใหญ่ไม่ใช่ เป็นอะตอมไม่กี่ตัว จุดบกพร่องในเพชร หรือชิป ที่แช่เย็นไว้ แต่มีแบบหนึ่งปี 2025 มองเห็นได้ใต้กล้องจุลทรรศน์']
+];
+const flipped = new Set();
+function renderCards() {
+  $('cards').innerHTML = MYTHS.map((m, i) => `<button type="button" class="card" data-i="${i}" aria-pressed="${flipped.has(i)}"><span class="front"><svg viewBox="0 0 64 64" aria-hidden="true">${ICON[m[0]]}</svg><span class="q" style="display:block">${T(m[1], m[2])}</span></span><span class="back"><span class="no">${T('Nope.', 'ไม่ใช่')}</span><span>${T(m[3], m[4]).replace(/^Nope\. |^ไม่ใช่ /, '')}</span></span></button>`).join('');
+}
+renders.push(renderCards);
+$('cards').addEventListener('click', e => {
+  const b = e.target.closest('.card'); if (!b) return;
+  const i = +b.dataset.i; if (flipped.has(i)) flipped.delete(i); else flipped.add(i);
+  b.setAttribute('aria-pressed', flipped.has(i));
+  if (MOTION) { b.classList.remove('flip'); void b.offsetWidth; b.classList.add('flip'); }
+});
+
+/* ---------- who made 'em: tap a picture to run its experiment ---------- */
+const WH = { n: 0, mags: [], boot: null, pulse: null, wave: null, lc: null, bd: null };
+const PIC = {
+  idea(s) { el('circle', { cx: 120, cy: 56, r: 30, class: 'lamp p2o' }, s); el('rect', { x: 106, y: 86, width: 28, height: 18, rx: 4, class: 'f-muted' }, s); el('text', { x: 120, y: 68, 'text-anchor': 'middle', class: 't-big' }, s).textContent = '?'; for (let i = 0; i < 7; i++) { const a = PI + i * PI / 6; el('line', { x1: 120 + Math.cos(a) * 40, y1: 56 + Math.sin(a) * 40, x2: 120 + Math.cos(a) * 52, y2: 56 + Math.sin(a) * 52, class: 's-gold p2o' }, s); } },
+  math(s) { el('rect', { x: 60, y: 14, width: 120, height: 112, rx: 6, class: 'f-panel', stroke: 'currentColor', 'stroke-width': 2.5 }, s); for (let i = 0; i < 5; i++) el('path', { d: `M74 ${36 + i * 18}q12 -8 24 0t24 0t24 0`, fill: 'none', stroke: 'currentColor', 'stroke-width': 2.5 }, s); el('path', { d: 'M150 96l26 26', stroke: 'var(--barn)', 'stroke-width': 6, 'stroke-linecap': 'round' }, s); el('path', { d: 'M176 96l-26 26', stroke: 'var(--barn)', 'stroke-width': 6, 'stroke-linecap': 'round' }, s); },
+  kick(s) { WH.boot = Boot(s, 70, 78, 0, .7); [110, 160, 210].forEach(x => Magnet(s, x, 70, 18)); },
+  ions(s) { el('rect', { x: 14, y: 30, width: 212, height: 10, rx: 4, class: 'f-muted' }, s); el('rect', { x: 14, y: 100, width: 212, height: 10, rx: 4, class: 'f-muted' }, s); el('line', { x1: 4, y1: 70, x2: 236, y2: 70, stroke: 'var(--barn)', 'stroke-width': 3, opacity: .7 }, s); for (let i = 0; i < 10; i++) el('circle', { cx: 30 + i * 20, cy: 70, r: 6, class: 'lamp p2a' }, s); },
+  diamond(s, n) { el('path', { d: 'M120 10L200 50L120 130L40 50Z', class: 'f-panel', stroke: 'var(--ice)', 'stroke-width': 3 }, s); el('path', { d: 'M40 50H200M80 30L120 50L160 30M120 50V130', fill: 'none', stroke: 'var(--ice)', 'stroke-width': 1.5, opacity: .6 }, s); const r = rng(n); const count = n === 9 ? 9 : 220; for (let i = 0; i < count; i++) { let x, y; do { x = 44 + r() * 152; y = 14 + r() * 112; } while (Math.abs(x - 120) / 80 + Math.abs(y - 50) / (y < 50 ? 40 : 80) > .96); if (n === 9) Magnet(s, x, y, 9); else el('circle', { cx: x, cy: y, r: 1.8, class: 'f-ink p2c' }, s); } },
+  chip(s) { el('rect', { x: 30, y: 20, width: 180, height: 100, rx: 8, class: 'f-panel', stroke: 'currentColor', 'stroke-width': 3 }, s); for (let i = 0; i < 9; i++) { el('rect', { x: 40 + i * 19, y: 8, width: 6, height: 12, class: 'f-muted' }, s); el('rect', { x: 40 + i * 19, y: 120, width: 6, height: 12, class: 'f-muted' }, s); } for (let i = 0; i < 20; i++) el('rect', { x: 44 + (i % 10) * 16, y: i < 10 ? 50 : 76, width: 11, height: 11, rx: 2, class: i % 2 ? 'salt-na p2b' : 'salt-cl p2a' }, s); },
+  mirrors(s) { el('line', { x1: 14, y1: 70, x2: 80, y2: 70, class: 'beam' }, s); el('rect', { x: 4, y: 52, width: 26, height: 36, rx: 6, class: 'lamp' }, s); el('line', { x1: 90, y1: 30, x2: 90, y2: 110, class: 'mirror' }, s); el('line', { x1: 190, y1: 30, x2: 190, y2: 110, class: 'mirror' }, s); WH.pulse = el('circle', { cx: 140, cy: 70, r: 26, class: 'cloud' }, s); },
+  lc(s) {
+    const ls = []; for (let j = 0; j < 7; j++) ls.push(el('polyline', { fill: 'none', stroke: j % 2 ? 'var(--ice)' : 'var(--gold)', 'stroke-width': 5, 'stroke-linecap': 'round' }, s));
+    WH.lc = n => ls.forEach((p, j) => { const pts = []; for (let i = 0; i <= 40; i++) pts.push((16 + i * 5.2).toFixed(1) + ',' + (20 + j * 16 + 6 * Math.sin(i / 3 + j + n * PI)).toFixed(1)); p.setAttribute('points', pts.join(' ')); });
+    WH.lc(0);
+  },
+  beads(s) { el('path', { d: 'M60 18Q120 40 180 18V8H60Z', class: 'bowl' }, s); el('path', { d: 'M60 122Q120 100 180 122V132H60Z', class: 'bowl' }, s); WH.bd = [el('circle', { cx: 120, cy: 56, r: 13, class: 'bead' }, s), el('circle', { cx: 120, cy: 86, r: 11, class: 'bead' }, s)]; },
+  helium(s) { el('path', { d: 'M80 14H160V104Q160 130 120 130Q80 130 80 104Z', class: 'f-panel', stroke: 'var(--ice)', 'stroke-width': 3 }, s); WH.wave = el('g', {}, s); el('path', { d: 'M86 80q8 -8 17 0t17 0t17 0t17 0V104Q154 124 120 124Q86 124 86 104Z', fill: 'var(--cool)', opacity: .7 }, WH.wave); for (let i = 0; i < 6; i++) { const a = i * PI / 3; el('line', { x1: 200, y1: 40, x2: 200 + Math.cos(a) * 18, y2: 40 + Math.sin(a) * 18, stroke: 'var(--ice)', 'stroke-width': 3, 'stroke-linecap': 'round' }, s); } }
+};
+const WHO = [
+  ['2012', 'idea', 'Idea', 'ไอเดีย', 'Frank Wilczek, MIT', 'Frank Wilczek, MIT', 'Asks: could stuff repeat in time, the way a crystal repeats in space?', 'ถามว่า: ของจะซ้ำไปตามเวลาได้ไหม เหมือนผลึกที่ซ้ำไปตามทาง'],
+  ['2015', 'math', 'Proof', 'พิสูจน์', 'Haruki Watanabe & Masaki Oshikawa', 'Haruki Watanabe และ Masaki Oshikawa', 'Prove it can\'t happen in stuff sittin\' still. It needs a push.', 'พิสูจน์ว่า ของที่อยู่นิ่งๆ ทำไม่ได้ ต้องมีแรงส่ง'],
+  ['2016', 'kick', 'Kick', 'เตะ', 'Khemani, Lazarides, Moessner, Sondhi · Else, Bauer, Nayak', 'Khemani, Lazarides, Moessner, Sondhi · Else, Bauer, Nayak', 'Two teams, on paper: kick it on a beat, and a crowd can answer every 2nd kick.', 'สองทีม บนกระดาษ: เตะเป็นจังหวะ แล้วทั้งฝูงตอบทุกเตะที่สองได้'],
+  ['2017', 'ions', 'Maryland', 'แมริแลนด์', 'Chris Monroe\'s lab, University of Maryland', 'แล็บของ Chris Monroe มหาวิทยาลัยแมริแลนด์', '10 atoms in a row, floating in electric fields, kicked with a laser.', 'อะตอม 10 ตัวเรียงแถว ลอยอยู่ในสนามไฟฟ้า เตะด้วยเลเซอร์'],
+  ['2017', 'diamond', 'Harvard', 'ฮาร์วาร์ด', 'Mikhail Lukin\'s lab, Harvard', 'แล็บของ Mikhail Lukin มหาวิทยาลัยฮาร์วาร์ด', 'About a million tiny flaws inside a diamond, kicked with microwaves.', 'จุดบกพร่องเล็กๆ ราวหนึ่งล้านจุดในเพชร เตะด้วยไมโครเวฟ'],
+  ['2021', 'diamond9', 'Delft', 'เดลฟต์', 'QuTech, Delft', 'QuTech เมืองเดลฟต์', '9 atom cores inside a diamond, each one a tiny magnet.', 'นิวเคลียสอะตอม 9 ตัวในเพชร แต่ละตัวคือแม่เหล็กจิ๋ว'],
+  ['2021', 'chip', 'Google', 'Google', 'Google Quantum AI', 'Google Quantum AI', '20 qubits in a row on a quantum computer chip.', 'คิวบิต 20 ตัวเรียงแถวบนชิปควอนตัมคอมพิวเตอร์'],
+  ['2022', 'mirrors', 'Hamburg', 'ฮัมบูร์ก', 'University of Hamburg', 'มหาวิทยาลัยฮัมบูร์ก', 'No kicks: a steady light, and the atoms pulse on their own.', 'ไม่เตะ: ส่องแสงนิ่งๆ แล้วอะตอมเต้นเอง'],
+  ['2025', 'lc', 'Colorado', 'โคโลราโด', 'Hanqing Zhao & Ivan Smalyukh, University of Colorado Boulder', 'Hanqing Zhao และ Ivan Smalyukh มหาวิทยาลัยโคโลราโด โบลเดอร์', 'In liquid crystal, the stuff in many screens. Shine light on it and the pattern moves on a beat. You can see it under a microscope.', 'ในผลึกเหลว แบบที่อยู่ในจอหลายแบบ ส่องแสงแล้วลายขยับเป็นจังหวะ มองเห็นได้ใต้กล้องจุลทรรศน์'],
+  ['2025', 'helium', 'Aalto', 'อาลโต', 'Aalto University, Finland', 'มหาวิทยาลัยอาลโต ฟินแลนด์', 'In helium-3 colder than outer space. Ran for minutes, about 100 million beats, hooked to a wobbling liquid surface.', 'ในฮีเลียม-3 ที่เย็นกว่าอวกาศ อยู่ได้หลายนาที ราว 100 ล้านจังหวะ ต่อเข้ากับผิวของเหลวที่กระเพื่อม'],
+  ['2026', 'beads', 'New York', 'นิวยอร์ก', 'Mia Morrell, Leela Elliott & David Grier, New York University', 'Mia Morrell, Leela Elliott และ David Grier มหาวิทยาลัยนิวยอร์ก', 'Two foam beads lifted by sound. Pick two sizes a little different and they swing opposite ways on their own, about 67 times a second. You can build one.', 'เม็ดโฟมสองเม็ดลอยด้วยเสียง ขนาดต่างกันนิดหน่อย มันแกว่งสวนทางกันเอง ราว 67 ครั้งต่อวินาที สร้างเองได้']
+];
+const KICKY = ['kick', 'ions', 'diamond', 'diamond9', 'chip', 'lc'], STEADY = ['mirrors', 'helium', 'beads'];
+let whoI = 3;
+function whoHint(kind) {
+  if (KICKY.includes(kind)) return T('Tap the picture to kick it.', 'แตะรูปเพื่อเตะ');
+  if (kind === 'beads') return T('Watch \'em swing opposite ways. No kicks.', 'ดูมันแกว่งสวนกัน ไม่ต้องเตะ');
+  if (STEADY.includes(kind)) return T('Watch it pulse. No kicks.', 'ดูมันเต้น ไม่ต้องเตะ');
+  return '';
+}
+function renderWho() {
+  WH.mags.forEach(m => { const i = allMags.indexOf(m); if (i >= 0) allMags.splice(i, 1); });
+  if (WH.boot) jobs.delete(WH.boot.step);
+  Object.assign(WH, { n: 0, mags: [], boot: null, pulse: null, wave: null, lc: null, bd: null });
+  $('years').innerHTML = WHO.map((w, i) => `<button type="button" data-i="${i}" aria-pressed="${i === whoI}">${w[0]} <span style="font-family:var(--body)">${T(w[2], w[3])}</span></button>`).join('');
+  const w = WHO[whoI], kind = w[1];
+  $('whoCard').innerHTML = `<svg class="pic" viewBox="0 0 240 140" role="img" aria-label="${w[0]}" style="color:var(--ink)"></svg><div><h3>${w[0]} · ${T(w[4], w[5])}</h3><p>${T(w[6], w[7])}</p></div>`;
+  const s = $('whoCard').querySelector('svg');
+  const n0 = allMags.length;
+  if (kind === 'diamond') PIC.diamond(s, 5); else if (kind === 'diamond9') PIC.diamond(s, 9); else PIC[kind](s);
+  WH.mags = allMags.slice(n0);
+  sayText('whoSay', whoHint(kind));
+  s.addEventListener('click', () => whoTap(s, kind));
+  wake();
+}
+function whoTap(s, kind) {
+  if (MOTION && s.animate) s.animate([{ transform: 'translateY(0)' }, { transform: 'translateY(-5px)' }, { transform: 'translateY(0)' }], { duration: 260 });
+  if (KICKY.includes(kind)) {
+    WH.n++;
+    const flip = () => { WH.mags.forEach(m => { m.a += PI; if (MOTION) m.vh = 4; }); wake(); };
+    if (WH.boot) WH.boot.kick(flip); else { s.classList.toggle('alt'); if (WH.lc) WH.lc(WH.n); flip(); }
+    sayText('whoSay', T(`Kick ${WH.n}: ${WH.n % 2 ? 'flipped' : 'back home'}.`, `เตะ ${WH.n}: ${WH.n % 2 ? 'พลิก' : 'กลับบ้าน'}`));
+  } else if (kind === 'beads') sayText('whoSay', T('No kicks here. Steady sound, and they swing on their own.', 'ตรงนี้ไม่ต้องเตะ เสียงนิ่งๆ แล้วมันแกว่งเอง'));
+  else if (STEADY.includes(kind)) sayText('whoSay', T('No kicks here. It pulses on its own.', 'ตรงนี้ไม่ต้องเตะ มันเต้นเอง'));
+  else if (kind === 'math') {
+    if (MOTION && s.animate) s.animate([{ transform: 'rotate(0)' }, { transform: 'rotate(-4deg)' }, { transform: 'rotate(4deg)' }, { transform: 'rotate(0)' }], { duration: 400 });
+    sayText('whoSay', T('Sittin\' still, nothing ticks. The math says no.', 'อยู่นิ่งๆ ไม่มีอะไรเดินจังหวะ คณิตศาสตร์บอกว่าไม่ได้'));
+  } else { s.classList.toggle('alt'); sayText('whoSay', T('An idea, on paper.', 'ไอเดีย บนกระดาษ')); }
+}
+renders.push(renderWho);
+$('years').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; whoI = +b.dataset.i; renderWho(); });
+$('whoPrev').addEventListener('click', () => { whoI = (whoI + WHO.length - 1) % WHO.length; renderWho(); });
+$('whoNext').addEventListener('click', () => { whoI = (whoI + 1) % WHO.length; renderWho(); });
+$('whoPrev').setAttribute('aria-label', 'Previous'); $('whoNext').setAttribute('aria-label', 'Next');
+jobs.add(now => {
+  if (!MOTION || !vis.who || document.hidden || !(WH.pulse || WH.wave || WH.bd)) return false;
+  const u = .5 + .5 * Math.cos(TAU * now / 1100);
+  if (WH.pulse) WH.pulse.setAttribute('opacity', (.3 + .7 * u).toFixed(2));
+  if (WH.bd) { const o = 6 * Math.sin(TAU * now / 900); WH.bd[0].setAttribute('cy', (56 + o).toFixed(1)); WH.bd[1].setAttribute('cy', (86 - o).toFixed(1)); }
+  if (WH.wave) WH.wave.setAttribute('transform', `translate(0 ${(4 * Math.sin(TAU * now / 1600)).toFixed(2)})`);
+  return true;
+});
+
+/* ---------- now you tell it: tap a blank, pick a word ---------- */
+const CHIPS = [
+  [['tiny magnets', 'แม่เหล็กจิ๋ว'], ['rocks', 'ก้อนหิน'], ['cows', 'วัว']],
+  [['kick', 'เตะ'], ['feed', 'ให้อาหาร'], ['paint', 'ทาสี']],
+  [['2nd kick', 'สองเตะ'], ['kick', 'เตะ'], ['hour', 'ชั่วโมง']],
+  [['their own', 'มันเอง'], ['your', 'คุณ']],
+  [['join hands', 'จับมือกัน'], ['sleep', 'นอนหลับ'], ['run off', 'วิ่งหนี']],
+  [['ain\'t', 'ไม่ใช่'], ['is', 'คือ']]
+];
+const LINE = {
+  en: ['A time crystal is a crowd of ', 0, '. You ', 1, ' \'em on every beat. They come back home every ', 2, ', on ', 3, ' beat. Sloppy kicks don\'t break it, \'cause they ', 4, '. And it ', 5, ' free power.'],
+  th: ['ผลึกเวลา คือ', 0, 'เป็นฝูง คุณ', 1, 'มันทุกจังหวะ มันกลับบ้านทุก', 2, ' เป็นจังหวะของ', 3, ' เตะเบี้ยวก็ไม่พัง เพราะมัน', 4, ' และมัน', 5, 'พลังงานฟรี']
+};
+let order = [], pick = [], tried = [], act = 0, tellRnd = rng(41);
+function mix() {
+  order = CHIPS.map(opts => { const idx = opts.map((_, i) => i); for (let i = idx.length - 1; i > 0; i--) { const j = Math.floor(tellRnd() * (i + 1)); [idx[i], idx[j]] = [idx[j], idx[i]]; } if (idx[0] === 0) idx.push(idx.shift()); return idx; });
+  pick = CHIPS.map(() => -1); tried = CHIPS.map(() => new Set()); act = 0;
+}
+mix();
+const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
+const chipLabel = c => pick[c] < 0 ? '?' : CHIPS[c][order[c][pick[c]]][L === 'th' ? 1 : 0];
+const chipOk = c => pick[c] >= 0 && order[c][pick[c]] === 0;
+function renderTell() {
+  $('tellLine').innerHTML = LINE[L].map(p => typeof p === 'number' ? `<button type="button" class="chip${chipOk(p) ? ' ok' : (pick[p] >= 0 ? ' no' : '')}${p === act && !chipOk(p) ? ' act' : ''}" data-c="${p}">${esc(chipLabel(p))}</button>` : esc(p)).join('');
+  const all = CHIPS.every((_, c) => chipOk(c));
+  $('tellTray').innerHTML = all ? '' : order[act].map((o, i) => `<button type="button" class="opt${tried[act].has(i) ? ' no' : ''}" data-o="${i}">${esc(CHIPS[act][o][L === 'th' ? 1 : 0])}</button>`).join('');
+  const d = $('tellDone'); const was = d.classList.contains('on');
+  d.classList.toggle('on', all);
+  if (all && !was) celebrate();
+}
+renders.push(renderTell);
+function sentence() { return LINE[L].map(p => typeof p === 'number' ? chipLabel(p) : p).join(''); }
+$('tellLine').addEventListener('click', e => {
+  const b = e.target.closest('.chip'); if (!b) return;
+  const c = +b.dataset.c; if (chipOk(c)) return;
+  act = c; renderTell();
+  const f = $('tellTray').querySelector('.opt:not(.no)'); if (f) f.focus({ preventScroll: true });
+});
+$('tellTray').addEventListener('click', e => {
+  const b = e.target.closest('.opt'); if (!b) return;
+  const c = act, i = +b.dataset.o; pick[c] = i;
+  if (order[c][i] === 0) { let nx = CHIPS.findIndex((_, k) => k > c && !chipOk(k)); if (nx < 0) nx = CHIPS.findIndex((_, k) => !chipOk(k)); act = nx < 0 ? c : nx; }
+  else tried[c].add(i);
+  renderTell();
+  const nb = $('tellLine').querySelector(`[data-c="${c}"]`);
+  if (nb && !chipOk(c) && MOTION) nb.classList.add('shake');
+  const f = $('tellTray').querySelector('.opt:not(.no)'); if (f) f.focus({ preventScroll: true });
+});
+$('tellMix').addEventListener('click', () => { mix(); renderTell(); sayText('tellSay', ''); });
+$('tellCopy').addEventListener('click', () => {
+  const s = sentence();
+  const ok = () => sayText('tellSay', T('Copied.', 'คัดลอกแล้ว'));
+  const fail = () => { const r = document.createRange(); r.selectNodeContents($('tellLine')); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); sayText('tellSay', T('Selected. Copy it from here.', 'เลือกไว้แล้ว คัดลอกจากตรงนี้ได้เลย')); };
+  try { navigator.clipboard.writeText(s).then(ok, fail); } catch (e) { fail(); }
+});
+$('tellRead').addEventListener('click', () => {
+  try { const u = new SpeechSynthesisUtterance(sentence()); u.lang = L === 'th' ? 'th-TH' : 'en-US'; u.rate = .9; speechSynthesis.cancel(); speechSynthesis.speak(u); } catch (e) { sayText('tellSay', T('This browser won\'t read aloud.', 'เบราว์เซอร์นี้อ่านออกเสียงไม่ได้')); }
+});
+const TD = { mags: [], t0: -1 };
+(function () { const s = $('tellSvg'); for (let i = 0; i < 12; i++) TD.mags.push(Magnet(s, 40 + i * 58, 45, 22)); })();
+function celebrate() { TD.t0 = performance.now(); TD.n = 0; wake(); }
+jobs.add(now => {
+  if (TD.t0 < 0) return false;
+  const n = Math.floor((now - TD.t0) / 450);
+  if (n > TD.n) { TD.n = n; TD.mags.forEach(m => { m.a += PI; if (MOTION) m.vh = 5; }); }
+  if (n > 8 || !MOTION) { TD.t0 = -1; return false; }
+  return true;
+});
+
+/* ---------- words ---------- */
+const GLOSS = [
+  ['Crystal', 'ผลึก', 'Stuff whose bits line up in a pattern that repeats across space. Salt, ice, quartz.', 'สสารที่อนุภาคเรียงเป็นลายซ้ำไปตามทาง เช่น เกลือ น้ำแข็ง ควอตซ์'],
+  ['Time crystal', 'ผลึกเวลา', 'Stuff whose bits fall into a pattern that repeats across time, on their own beat, and hang on to it.', 'สสารที่อนุภาคเข้าจังหวะซ้ำไปตามเวลา ด้วยจังหวะของมันเอง และเกาะจังหวะนั้นไว้'],
+  ['Spin', 'สปิน (spin)', 'A tiny magnet inside an atom. The arrows on this page.', 'แม่เหล็กจิ๋วในอะตอม คือลูกศรในหน้านี้'],
+  ['Drive', 'แรงขับ (drive)', 'The kick: a flash of laser or microwave, on a beat.', 'การเตะ: แสงเลเซอร์หรือไมโครเวฟที่ยิงเป็นจังหวะ'],
+  ['Period doubling', 'คาบเพิ่มสองเท่า', 'Kick every 1, answer every 2.', 'เตะทุก 1 ตอบทุก 2'],
+  ['Interaction', 'อันตรกิริยา (interaction)', 'Joined hands: neighbors pushin\' and pullin\' on each other.', 'การจับมือ: ตัวข้างๆ ผลักกัน ดึงกัน'],
+  ['Disorder', 'ความไม่เป็นระเบียบ (disorder)', 'The mud: every spot a little different, so heat can\'t spread.', 'โคลน: แต่ละที่ต่างกันนิดหน่อย ความร้อนเลยกระจายไม่ได้'],
+  ['Nonreciprocal', 'ไม่ตอบแทนกัน (nonreciprocal)', 'One pushes the other harder than it gets pushed back. Two foam beads of different sizes do this.', 'ตัวหนึ่งดันอีกตัวแรงกว่าที่โดนดันกลับ เม็ดโฟมสองขนาดทำแบบนี้'],
+  ['Acoustic levitator', 'เครื่องลอยด้วยเสียง', 'Speakers above and below. Their sound sets small, light things floating in still spots.', 'ลำโพงด้านบนและด้านล่าง เสียงของมันทำให้ของเล็กๆ เบาๆ ลอยนิ่งอยู่เป็นจุดๆ'],
+  ['Phase of matter', 'สถานะของสสาร', 'A kind of stuff: solid, liquid, gas. And now this.', 'แบบของสสาร: ของแข็ง ของเหลว ก๊าซ และตอนนี้ก็มีแบบนี้']
+];
+function renderGloss() { $('gloss').innerHTML = GLOSS.map(g => `<dt>${T(g[0], g[1])}</dt><dd>${T(g[2], g[3])}</dd>`).join(''); }
+renders.push(renderGloss);
+
+/* ---------- the sky ---------- */
+const sky = $('sky'), cx = sky.getContext('2d');
+const SK = { w: 0, h: 0, dpr: 1, stars: [], flies: [], beat: 0, last: 0, flip: 0, shoot: null, hop: 0, col: {} };
+function cssv(n) { return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
+function skyColors() { ['--sky1', '--sky2', '--hill1', '--hill2', '--hill3', '--star', '--glow', '--wood', '--gold', '--ink', '--panel', '--well'].forEach(n => SK.col[n] = cssv(n)); const c = SK.col['--sky1'].replace('#', ''); SK.dark = parseInt(c.slice(0, 2), 16) + parseInt(c.slice(2, 4), 16) + parseInt(c.slice(4, 6), 16) < 200; }
+function skySize() {
+  SK.dpr = Math.min(2, window.devicePixelRatio || 1); SK.w = innerWidth; SK.h = innerHeight;
+  sky.width = Math.round(SK.w * SK.dpr); sky.height = Math.round(SK.h * SK.dpr);
+  const r = rng(5); SK.stars = []; for (let i = 0; i < 140; i++) SK.stars.push([r() * SK.w, r() * SK.h * .6, r() * 1.6 + .4, r() * TAU]);
+  SK.flies = []; for (let i = 0; i < 26; i++) SK.flies.push([r() * SK.w, SK.h * (.55 + r() * .3), r() * TAU]);
+  skyDraw(performance.now());
+}
+function hillY(x, k) { const h = SK.h; return h * (.6 + .09 * k) + Math.sin(x / (230 + 60 * k) + k * 2) * 26 + Math.sin(x / 97 + k) * 9; }
+function skyDraw(now) {
+  const { w, h, col } = SK; cx.setTransform(SK.dpr, 0, 0, SK.dpr, 0, 0);
+  const g = cx.createLinearGradient(0, 0, 0, h); g.addColorStop(0, col['--sky1']); g.addColorStop(.75, col['--sky2']); cx.fillStyle = g; cx.fillRect(0, 0, w, h);
+  if (SK.dark) { cx.fillStyle = col['--star']; SK.stars.forEach(s => { cx.globalAlpha = .45 + .45 * Math.sin(now / 900 + s[3]); cx.beginPath(); cx.arc(s[0], s[1], s[2], 0, TAU); cx.fill(); }); cx.globalAlpha = 1; }
+  if (SK.shoot) { const u = (now - SK.shoot.t) / 900; if (u < 1) { const x = SK.shoot.x + u * 420, y = SK.shoot.y + u * 160; cx.strokeStyle = col['--glow']; cx.lineWidth = 3; cx.globalAlpha = 1 - u; cx.beginPath(); cx.moveTo(x, y); cx.lineTo(x - 90, y - 34); cx.stroke(); cx.globalAlpha = 1; } else SK.shoot = null; }
+  [['--hill1', 0], ['--hill2', 1]].forEach(([c, k]) => { cx.fillStyle = col[c]; cx.beginPath(); cx.moveTo(0, h); for (let x = 0; x <= w + 20; x += 20) cx.lineTo(x, hillY(x, k)); cx.lineTo(w, h); cx.fill(); });
+  // fence along the front hill, magnets on every other post
+  const step = Math.max(64, w / 14);
+  const ease = Math.min(1, (now - SK.last) / 260);
+  for (let i = 0, x = step / 2; x < w; x += step, i++) {
+    const y = hillY(x, 2) - 6;
+    cx.fillStyle = col['--wood']; cx.fillRect(x - 5, y - 54, 10, 60);
+    if (i % 2 === 0) {
+      const hop = SK.hop > 0 ? Math.sin(SK.hop * PI) * 18 : 0;
+      const my = y - 74 - hop, r = 13;
+      const a = (SK.beat + (MOTION ? ease : 1)) * PI;
+      cx.fillStyle = col['--panel']; cx.strokeStyle = col['--ink']; cx.lineWidth = 2; cx.beginPath(); cx.arc(x, my, r, 0, TAU); cx.fill(); cx.stroke();
+      cx.save(); cx.translate(x, my); cx.rotate(a);
+      cx.fillStyle = col['--gold']; cx.beginPath(); cx.moveTo(0, -r * .8); cx.lineTo(r * .32, 0); cx.lineTo(-r * .32, 0); cx.closePath(); cx.fill(); cx.stroke();
+      cx.fillStyle = col['--well']; cx.beginPath(); cx.moveTo(0, r * .8); cx.lineTo(r * .32, 0); cx.lineTo(-r * .32, 0); cx.closePath(); cx.fill(); cx.stroke();
+      cx.restore();
+    }
+  }
+  cx.fillStyle = col['--wood'];
+  for (let x = 0; x < w; x += 6) { const y = hillY(x, 2) - 46; cx.fillRect(x, y, 6, 6); cx.fillRect(x, y + 26, 6, 5); }
+  cx.fillStyle = col['--hill3']; cx.beginPath(); cx.moveTo(0, h); for (let x = 0; x <= w + 20; x += 20) cx.lineTo(x, hillY(x, 2)); cx.lineTo(w, h); cx.fill();
+  if (SK.dark) { const on = SK.beat % 2 === 0; SK.flies.forEach(f => { const fx = f[0] + Math.sin(now / 1700 + f[2]) * 20, fy = f[1] + Math.cos(now / 1300 + f[2]) * 12; cx.fillStyle = col['--glow']; cx.globalAlpha = on ? .9 * (1 - ease * .4) : .12; cx.beginPath(); cx.arc(fx, fy, 3, 0, TAU); cx.fill(); cx.globalAlpha = on ? .2 : 0; cx.beginPath(); cx.arc(fx, fy, 10, 0, TAU); cx.fill(); }); cx.globalAlpha = 1; }
+}
+let skyLast = 0;
+jobs.add(now => {
+  const open = vis.w1 || vis.w2 || vis.w3;
+  let busy = false;
+  if (SK.hop > 0) { SK.hop = Math.max(0, SK.hop - .05); busy = true; }
+  if (MOTION && open && !document.hidden) {
+    if (now - SK.last > 1100) { SK.last = now; SK.beat++; }
+    busy = true;
+  }
+  if (busy || SK.shoot) { if (now - skyLast > 32) { skyLast = now; skyDraw(now); } return true; }
+  return false;
+});
+function skyTap(e) { SK.shoot = { t: performance.now(), x: (e && e.clientX ? e.clientX : SK.w / 3) - 160, y: (e && e.clientY ? e.clientY : SK.h / 4) - 80 }; SK.hop = 1; SK.last = performance.now(); SK.beat++; wake(); }
+['w1', 'w2', 'w3'].forEach(id => { $(id).addEventListener('click', skyTap); $(id).addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); skyTap(); } }); });
+addEventListener('resize', () => { clearTimeout(SK.rt); SK.rt = setTimeout(skySize, 120); });
+function retheme() { skyColors(); skyDraw(performance.now()); }
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', retheme);
+new MutationObserver(retheme).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+skyColors(); skySize();
+
+/* ---------- motion + language ---------- */
+function setMotion(on) {
+  MOTION = on; $('motionBtn').setAttribute('aria-pressed', on);
+  if (!on) { allMags.forEach(m => { m.shown = m.a; m.spin = 0; m.hop = 0; m.vh = 0; draw(m); }); }
+  skyDraw(performance.now()); wake();
+}
+$('motionBtn').addEventListener('click', () => setMotion(!MOTION));
+RMQ.addEventListener && RMQ.addEventListener('change', e => setMotion(!e.matches));
+function setLang(l) {
+  L = l; root.dataset.lang = l; document.documentElement.lang = l;
+  document.querySelectorAll('.lang button').forEach(b => b.setAttribute('aria-pressed', b.dataset.l === l));
+  try { localStorage.setItem('tc-lang', l); } catch (e) {}
+  renders.forEach(f => f());
+}
+document.querySelectorAll('.lang button').forEach(b => b.addEventListener('click', () => setLang(b.dataset.l)));
+setMotion(MOTION);
+setLang(L);
+document.addEventListener('visibilitychange', wake);
+})();
+</script>
+
+</body>
+</html>
