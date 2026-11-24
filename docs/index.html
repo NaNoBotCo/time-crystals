@@ -1294,6 +1294,9 @@ jobs.add(now => {
 });
 
 /* ---------- build one: the ladder, the parts, the kit ---------- */
+/* a visitor from an ad: utm_content names the ad; counts land, kit box seen, Order tapped */
+const AD = (() => { try { return (new URLSearchParams(location.search).get('utm_content') || '').replace(/[^a-z0-9-]/gi, '').slice(0, 24).toLowerCase(); } catch (e) { return ''; } })();
+const adTap = ev => { if (!AD) return; try { navigator.sendBeacon(`https://tc-taps.nanobotco.workers.dev/t?a=${AD}&e=${ev}`); } catch (e) {} };
 const REPO = 'https://github.com/NaNoBotCo/chronos';
 const KIT = { pick: 1, url: '', mail: 'nan@motdang.net', tiers: [
   { usd: 129, thb: 4499, en: 'Student', th: 'นักเรียน', noteEn: 'Close to cost. A few open each month; every Supporter order opens one more.', noteTh: 'เกือบเท่าทุน เปิดไม่กี่ชุดต่อเดือน ทุกออเดอร์ผู้สนับสนุนเปิดเพิ่มอีกหนึ่งชุด' },
@@ -1341,11 +1344,16 @@ function renderParts() {
   $('tiers').innerHTML = KIT.tiers.map((t, i) => `<button type="button" data-i="${i}" aria-pressed="${i === KIT.pick}"><b>${esc(T(t.en, t.th))}</b><span>${T('$' + t.usd, '฿' + t.thb.toLocaleString('en-US'))}</span></button>`).join('');
   $('kitPrice').textContent = money(k);
   $('tierNote').textContent = T(k.noteEn, k.noteTh);
-  const subj = encodeURIComponent(`Chronos kit: ${k.en} $${k.usd} / ฿${k.thb}`), body = encodeURIComponent(T('Name:\nShip to (full address):\nCountry:\nPhone:\n', 'ชื่อ:\nที่อยู่จัดส่ง (เต็ม):\nประเทศ:\nโทร:\n'));
+  const subj = encodeURIComponent(`Chronos kit: ${k.en} $${k.usd} / ฿${k.thb}${AD ? ' · fb-' + AD : ''}`), body = encodeURIComponent(T('Name:\nShip to (full address):\nCountry:\nPhone:\n', 'ชื่อ:\nที่อยู่จัดส่ง (เต็ม):\nประเทศ:\nโทร:\n'));
   $('kitBtn').href = KIT.url || `mailto:${KIT.mail}?subject=${subj}&body=${body}`;
   $('kitHow').textContent = KIT.url ? T('Card checkout. Ships in 1 to 3 weeks.', 'จ่ายด้วยบัตร จัดส่งภายใน 1 ถึง 3 สัปดาห์') : T(`Order by email to ${KIT.mail}. The reply says how to pay.`, `สั่งทางอีเมล ${KIT.mail} แล้วจะได้คำตอบว่าจ่ายอย่างไร`);
 }
 renders.push(renderParts);
+if (AD) {
+  adTap('land');
+  $('kitBtn').addEventListener('click', () => adTap('order'));
+  try { const io = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { adTap('kit'); io.disconnect(); } }, { threshold: .4 }); io.observe($('kit')); } catch (e) {}
+}
 $('tiers').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; KIT.pick = +b.dataset.i; renderParts(); const nb = $('tiers').querySelector(`[data-i="${KIT.pick}"]`); if (nb) nb.focus({ preventScroll: true }); });
 
 /* ---------- myth cards ---------- */
