@@ -43,7 +43,7 @@ today = datetime.date.today().isoformat()
 
 Time crystals explained with toys you drive, in English and Thai, for readers of any language.
 
-- Film: What's a time crystal? NaN and Beer, 45 seconds, words on screen: https://nanobotco.github.io/time-crystals/film/what-is-a-time-crystal.mp4 (Thai: film/what-is-a-time-crystal-th.mp4).
+- Film: What's a time crystal? NaN and Beer, 15 minutes in 13 chapters, words on screen: https://nanobotco.github.io/time-crystals/film/what-is-a-time-crystal.mp4 (Thai: film/what-is-a-time-crystal-th.mp4). Chapters: can we time travel now?; what's a crystal; what's a time crystal; kick it; the sloppy boot; won't it get hot; no boot at all; what it ain't (time machine, free power, a clock, a rock in your hand); who made 'em; one you can build; the Chronos kit; what it's good for; say it back.
 - Plain ol' crystal: guess the next ball in a salt checkerboard, then the next magnet across time. A pattern is something you can guess.
 - Kick it: kick a fence of magnets at your own tempo; they come home every second kick, at half your beat. Stop kicking and they stop.
 - The sloppy boot: kicks that turn the magnets only most of the way. Alone they drift off the beat; with neighbours joined they pull a knocked magnet back. Cartoon of the math.

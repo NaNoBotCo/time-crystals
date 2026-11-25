@@ -45,6 +45,9 @@ h2{font-size:clamp(30px,6.4vw,42px);padding-top:26px}
 .lede{font-size:clamp(22px,4.4vw,27px);margin:.4em 0 0;max-width:30ch}
 .film{margin:14px auto 4px;width:100%;max-width:540px}
 .film video{display:block;width:100%;height:auto;aspect-ratio:1/1;border:2.5px solid var(--ink);border-radius:16px;background:var(--well);box-shadow:6px 6px 0 var(--rule)}
+.chapters{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:8px}
+.chapters .go{width:100%;justify-content:flex-start;text-align:left;font-size:19px}
+.chapters .time{font:700 16px var(--mono);color:var(--icetext);min-width:3.2em}
 section p{margin:.55em 0;max-width:62ch}
 .toy{background:var(--panel);border:2.5px solid var(--ink);border-radius:16px;padding:14px;margin:16px 0 6px;box-shadow:6px 6px 0 var(--rule)}
 .toy svg{display:block;width:100%;height:auto;overflow:hidden;touch-action:manipulation}
@@ -231,8 +234,25 @@ footer a{color:var(--muted)}
 
   <section id="hero">
     <figure class="film">
-      <video class="en" controls playsinline preload="none" width="1080" height="1080" poster="film/what-is-a-time-crystal.jpg" aria-label="What's a time crystal? A 45-second cartoon with words on screen. Beer asks. NaN shows salt, a pattern across space, then a fence of magnets a boot kicks on every beat: they come home every second kick, and with hands joined a sloppy kick can't shake the beat."><source src="film/what-is-a-time-crystal.mp4" type="video/mp4"></video>
-      <video class="th" controls playsinline preload="none" width="1080" height="1080" poster="film/what-is-a-time-crystal-th.jpg" aria-label="ผลึกเวลาคืออะไร การ์ตูน 45 วินาที มีคำบนจอ เบียร์ถาม แนนให้ดูเกลือ ลายซ้ำไปตามทาง แล้วรั้วแม่เหล็กที่รองเท้าเตะทุกจังหวะ มันกลับบ้านทุกสองเตะ จับมือกันไว้ เตะเบี้ยวก็ไม่หลุด"><source src="film/what-is-a-time-crystal-th.mp4" type="video/mp4"></video>
+      <video class="en" controls playsinline preload="none" width="1080" height="1080" poster="film/what-is-a-time-crystal.jpg" aria-label="What's a time crystal? A 15-minute cartoon with words on screen, in 13 chapters. Beer asks what everyone asks; NaN answers with salt, a fence of magnets and a boot, a jar of mud, a lamp, foam beads lifted by sound, and the Chronos kit you can build."><source src="film/what-is-a-time-crystal.mp4" type="video/mp4"></video>
+      <video class="th" controls playsinline preload="none" width="1080" height="1080" poster="film/what-is-a-time-crystal-th.jpg" aria-label="ผลึกเวลาคืออะไร การ์ตูน 15 นาที มีคำบนจอ 13 ตอน เบียร์ถามสิ่งที่ทุกคนอยากรู้ แนนตอบด้วยเกลือ รั้วแม่เหล็กกับรองเท้า โหลโคลน ตะเกียง เม็ดโฟมที่ลอยด้วยเสียง และชุด Chronos ที่สร้างเองได้"><source src="film/what-is-a-time-crystal-th.mp4" type="video/mp4"></video>
+      <figcaption>
+        <ol class="chapters" aria-label="Chapters / ตอน">
+        <li><button type="button" class="go" data-at="0"><span class="time">0:00</span><span class="en">Start: can we time travel now?</span><span class="th">เริ่ม: ย้อนเวลาได้แล้วเหรอ</span></button></li>
+        <li><button type="button" class="go" data-at="20"><span class="time">0:20</span><span class="en">What's a crystal?</span><span class="th">ผลึกคืออะไร</span></button></li>
+        <li><button type="button" class="go" data-at="90"><span class="time">1:30</span><span class="en">So what's a time crystal?</span><span class="th">แล้วผลึกเวลาล่ะ</span></button></li>
+        <li><button type="button" class="go" data-at="140"><span class="time">2:20</span><span class="en">Kick it</span><span class="th">เตะมัน</span></button></li>
+        <li><button type="button" class="go" data-at="215"><span class="time">3:35</span><span class="en">The trick: a sloppy boot</span><span class="th">ทีเด็ด: เตะเบี้ยว</span></button></li>
+        <li><button type="button" class="go" data-at="310"><span class="time">5:10</span><span class="en">Won't it get hot?</span><span class="th">เตะไปเรื่อยๆ ไม่ร้อนเหรอ</span></button></li>
+        <li><button type="button" class="go" data-at="390"><span class="time">6:30</span><span class="en">No boot at all</span><span class="th">ไม่ต้องเตะเลย</span></button></li>
+        <li><button type="button" class="go" data-at="450"><span class="time">7:30</span><span class="en">What it ain't: time machine? free power?</span><span class="th">มันไม่ใช่อะไร: เครื่องย้อนเวลา? พลังงานฟรี?</span></button></li>
+        <li><button type="button" class="go" data-at="570"><span class="time">9:30</span><span class="en">Who made 'em</span><span class="th">ใครทำได้บ้าง</span></button></li>
+        <li><button type="button" class="go" data-at="665"><span class="time">11:05</span><span class="en">One you can build</span><span class="th">แบบที่สร้างเองได้</span></button></li>
+        <li><button type="button" class="go" data-at="725"><span class="time">12:05</span><span class="en">Build one: the Chronos kit</span><span class="th">สร้างเองสักเครื่อง: ชุด Chronos</span></button></li>
+        <li><button type="button" class="go" data-at="805"><span class="time">13:25</span><span class="en">What's it good for?</span><span class="th">เอาไปทำอะไรได้</span></button></li>
+        <li><button type="button" class="go" data-at="855"><span class="time">14:15</span><span class="en">Say it back</span><span class="th">พูดกลับให้ฟัง</span></button></li>
+        </ol>
+      </figcaption>
     </figure>
     <h1><span class="en">Time Crystals</span><span class="th">ผลึกเวลา</span></h1>
     <p class="lede"><span class="en">A crystal repeats across space. A time crystal repeats across time.</span><span class="th">ผลึกธรรมดา ลายซ้ำไปตามทาง ผลึกเวลา ลายซ้ำไปตามเวลา</span></p>
@@ -1610,6 +1630,12 @@ function setLang(l) {
   renders.forEach(f => f());
   document.querySelectorAll('.film video').forEach(v => { if (!v.classList.contains(l)) v.pause(); });
 }
+document.querySelectorAll('.chapters .go').forEach(b => b.addEventListener('click', () => {
+  const v = document.querySelector('.film video.' + L); if (!v) return;
+  const go = () => { v.currentTime = +b.dataset.at; v.play().catch(() => {}); };
+  if (v.readyState >= 1) go(); else { v.preload = 'auto'; v.addEventListener('loadedmetadata', go, { once: true }); v.load(); }
+  v.scrollIntoView({ behavior: MOTION ? 'smooth' : 'auto', block: 'nearest' });
+}));
 document.querySelectorAll('.lang button').forEach(b => b.addEventListener('click', () => setLang(b.dataset.l)));
 setMotion(MOTION);
 setLang(L);
