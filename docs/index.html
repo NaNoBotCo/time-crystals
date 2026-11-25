@@ -61,6 +61,8 @@ h1,h2,h3{margin:0;line-height:1.1;text-wrap:balance;font-weight:400;font-family:
 h1{font-size:clamp(46px,11vw,84px);margin-top:18px;letter-spacing:.5px}
 h2{font-size:clamp(30px,6.4vw,42px);padding-top:26px}
 .lede{font-size:clamp(22px,4.4vw,27px);margin:.4em 0 0;max-width:30ch}
+.film{margin:14px auto 4px;width:100%;max-width:540px}
+.film video{display:block;width:100%;height:auto;aspect-ratio:1/1;border:2.5px solid var(--ink);border-radius:16px;background:var(--well);box-shadow:6px 6px 0 var(--rule)}
 section p{margin:.55em 0;max-width:62ch}
 .toy{background:var(--panel);border:2.5px solid var(--ink);border-radius:16px;padding:14px;margin:16px 0 6px;box-shadow:6px 6px 0 var(--rule)}
 .toy svg{display:block;width:100%;height:auto;overflow:hidden;touch-action:manipulation}
@@ -248,6 +250,10 @@ footer a{color:var(--muted)}
   </header>
 
   <section id="hero">
+    <figure class="film">
+      <video class="en" controls playsinline preload="none" width="1080" height="1080" poster="film/what-is-a-time-crystal.jpg" aria-label="What's a time crystal? A 45-second cartoon with words on screen. Beer asks. NaN shows salt, a pattern across space, then a fence of magnets a boot kicks on every beat: they come home every second kick, and with hands joined a sloppy kick can't shake the beat."><source src="film/what-is-a-time-crystal.mp4" type="video/mp4"></video>
+      <video class="th" controls playsinline preload="none" width="1080" height="1080" poster="film/what-is-a-time-crystal-th.jpg" aria-label="ผลึกเวลาคืออะไร การ์ตูน 45 วินาที มีคำบนจอ เบียร์ถาม แนนให้ดูเกลือ ลายซ้ำไปตามทาง แล้วรั้วแม่เหล็กที่รองเท้าเตะทุกจังหวะ มันกลับบ้านทุกสองเตะ จับมือกันไว้ เตะเบี้ยวก็ไม่หลุด"><source src="film/what-is-a-time-crystal-th.mp4" type="video/mp4"></video>
+    </figure>
     <h1><span class="en">Time Crystals</span><span class="th">ผลึกเวลา</span></h1>
     <p class="lede"><span class="en">A crystal repeats across space. A time crystal repeats across time.</span><span class="th">ผลึกธรรมดา ลายซ้ำไปตามทาง ผลึกเวลา ลายซ้ำไปตามเวลา</span></p>
     <div class="toy">
@@ -1622,6 +1628,7 @@ function setLang(l) {
   document.querySelectorAll('.lang button').forEach(b => b.setAttribute('aria-pressed', b.dataset.l === l));
   try { localStorage.setItem('tc-lang', l); } catch (e) {}
   renders.forEach(f => f());
+  document.querySelectorAll('.film video').forEach(v => { if (!v.classList.contains(l)) v.pause(); });
 }
 document.querySelectorAll('.lang button').forEach(b => b.addEventListener('click', () => setLang(b.dataset.l)));
 setMotion(MOTION);
